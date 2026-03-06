@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/26_RAV4_ext_01.jpg?t=1692599285" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="empty" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="Bold Radiator Grile" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_01.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_04.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo url="https://toyotavshowroom.com/info/rav-4/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="Lower Bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_02.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="Fog Lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_03.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="PHEV Emblem" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_05.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="Rear Side" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_06.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="Rear Bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_07.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="Mufler" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/26_RAV4_Ext_ftrs_08.jpg?t=1692599285" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="Rear View Button" renderMode="0" indicatorImage="button_rear view.png">
+      <spotinfo clickAction="3" />
+    </hotspot>
+    <hotspot id="Front View Btn" renderMode="0" indicatorImage="button_front view.png">
+      <spotinfo clickAction="4" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/26_RAV4_ext_01.jpg?t=1692599285">
+      <hotspot source="Bold Radiator Grile" offsetX="853" offsetY="319" />
+      <hotspot source="wheel" offsetX="567" offsetY="428" />
+      <hotspot source="enter" offsetX="308" offsetY="253" />
+      <hotspot source="Lower Bumper" offsetX="922" offsetY="435" />
+      <hotspot source="Fog Lamp" offsetX="700" offsetY="360" />
+      <hotspot source="PHEV Emblem" offsetX="476" offsetY="274" />
+      <hotspot source="Rear View Button" offsetX="534" offsetY="593" />
+      <highres src="images/highres/26_RAV4_ext_01.jpg?t=1692599285" />
+    </image>
+    <image src="images/26_RAV4_ext_02.jpg?t=1692599285">
+      <hotspot source="wheel" offsetX="129" offsetY="410" />
+      <hotspot source="enter" offsetX="316" offsetY="274" />
+      <hotspot source="PHEV Emblem" offsetX="169" offsetY="291" />
+      <hotspot source="Rear Side" offsetX="883" offsetY="321" />
+      <hotspot source="Rear Bumper" offsetX="886" offsetY="419" />
+      <hotspot source="Mufler" offsetX="739" offsetY="467" />
+      <hotspot source="Front View Btn" offsetX="534" offsetY="593" />
+      <highres src="images/highres/26_RAV4_ext_02.jpg?t=1692599285" />
+    </image>
+  </images>
+</config>

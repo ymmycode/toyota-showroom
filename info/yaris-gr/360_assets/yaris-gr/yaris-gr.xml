@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/02_Yaris_ext_01.jpg?t=1673520840" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="rear bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_GR_ext_ftrs_04.png?t=1673520840" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="front look" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/02_Yaris_GR_ext_ftrs_01.png?t=1673520840" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="outer mirror" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_GR_ext_ftrs-12.jpg?t=1673520840" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_GR_ext_ftrs-07.jpg?t=1673520840" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/yaris-gr/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="side visor" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_GR_ext_ftrs-13.jpg?t=1673520840" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="turning radius" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_GR_ext_ftrs-11.jpg?t=1673520840" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="GR emblem" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_GR_ext_ftrs-09.jpg?t=1673520840" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/02_Yaris_GR_EXT_1.jpg?t=1673520840">
+      <hotspot source="front look" offsetX="540" offsetY="344" />
+      <hotspot source="outer mirror" offsetX="742" offsetY="203" />
+      <hotspot source="turning radius" offsetX="454" offsetY="204" />
+      <highres src="images/highres/02_Yaris_GR_EXT_1.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_3.jpg?t=1673520840">
+      <hotspot source="front look" offsetX="276" offsetY="341" />
+      <hotspot source="outer mirror" offsetX="645" offsetY="204" />
+      <hotspot source="wheel" offsetX="835" offsetY="366" />
+      <hotspot source="enter" offsetX="722" offsetY="255" />
+      <hotspot source="side visor" offsetX="668" offsetY="142" />
+      <hotspot source="turning radius" offsetX="374" offsetY="202" />
+      <highres src="images/highres/02_Yaris_GR_EXT_3.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_5.jpg?t=1673520840">
+      <hotspot source="front look" offsetX="114" offsetY="331" />
+      <hotspot source="outer mirror" offsetX="513" offsetY="204" />
+      <hotspot source="wheel" offsetX="900" offsetY="377" />
+      <hotspot source="enter" offsetX="670" offsetY="257" />
+      <hotspot source="side visor" offsetX="633" offsetY="138" />
+      <hotspot source="turning radius" offsetX="351" offsetY="201" />
+      <highres src="images/highres/02_Yaris_GR_EXT_5.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_7.jpg?t=1673520840">
+      <hotspot source="outer mirror" offsetX="390" offsetY="202" />
+      <hotspot source="wheel" offsetX="871" offsetY="388" />
+      <hotspot source="enter" offsetX="578" offsetY="258" />
+      <hotspot source="side visor" offsetX="583" offsetY="135" />
+      <highres src="images/highres/02_Yaris_GR_EXT_7.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_9.jpg?t=1673520840">
+      <hotspot source="rear bumper" offsetX="972" offsetY="382" />
+      <hotspot source="outer mirror" offsetX="311" offsetY="204" />
+      <hotspot source="wheel" offsetX="737" offsetY="401" />
+      <hotspot source="enter" offsetX="471" offsetY="260" />
+      <hotspot source="side visor" offsetX="506" offsetY="138" />
+      <highres src="images/highres/02_Yaris_GR_EXT_9.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_11.jpg?t=1673520840">
+      <hotspot source="rear bumper" offsetX="806" offsetY="392" />
+      <hotspot source="outer mirror" offsetX="301" offsetY="206" />
+      <hotspot source="wheel" offsetX="536" offsetY="402" />
+      <hotspot source="enter" offsetX="390" offsetY="255" />
+      <hotspot source="side visor" offsetX="430" offsetY="136" />
+      <hotspot source="GR emblem" offsetX="894" offsetY="297" />
+      <highres src="images/highres/02_Yaris_GR_EXT_11.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_13.jpg?t=1673520840">
+      <hotspot source="rear bumper" offsetX="542" offsetY="406" />
+      <hotspot source="outer mirror" offsetX="344" offsetY="201" />
+      <hotspot source="GR emblem" offsetX="664" offsetY="305" />
+      <highres src="images/highres/02_Yaris_GR_EXT_13.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_15.jpg?t=1673520840">
+      <hotspot source="rear bumper" offsetX="276" offsetY="394" />
+      <hotspot source="outer mirror" offsetX="777" offsetY="210" />
+      <hotspot source="wheel" offsetX="547" offsetY="404" />
+      <hotspot source="enter" offsetX="692" offsetY="258" />
+      <hotspot source="side visor" offsetX="648" offsetY="137" />
+      <hotspot source="GR emblem" offsetX="382" offsetY="307" />
+      <highres src="images/highres/02_Yaris_GR_EXT_15.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_17.jpg?t=1673520840">
+      <hotspot source="rear bumper" offsetX="110" offsetY="380" />
+      <hotspot source="outer mirror" offsetX="772" offsetY="204" />
+      <hotspot source="wheel" offsetX="346" offsetY="401" />
+      <hotspot source="enter" offsetX="608" offsetY="260" />
+      <hotspot source="side visor" offsetX="578" offsetY="137" />
+      <hotspot source="GR emblem" offsetX="158" offsetY="297" />
+      <highres src="images/highres/02_Yaris_GR_EXT_17.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_19.jpg?t=1673520840">
+      <hotspot source="outer mirror" offsetX="692" offsetY="203" />
+      <hotspot source="wheel" offsetX="213" offsetY="390" />
+      <hotspot source="enter" offsetX="501" offsetY="260" />
+      <hotspot source="side visor" offsetX="503" offsetY="138" />
+      <highres src="images/highres/02_Yaris_GR_EXT_19.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_21.jpg?t=1673520840">
+      <hotspot source="front look" offsetX="963" offsetY="333" />
+      <hotspot source="outer mirror" offsetX="563" offsetY="206" />
+      <hotspot source="wheel" offsetX="175" offsetY="379" />
+      <hotspot source="enter" offsetX="402" offsetY="258" />
+      <hotspot source="side visor" offsetX="442" offsetY="140" />
+      <hotspot source="turning radius" offsetX="691" offsetY="205" />
+      <highres src="images/highres/02_Yaris_GR_EXT_21.jpg?t=1673520840" />
+    </image>
+    <image src="images/02_Yaris_GR_EXT_23.jpg?t=1673520840">
+      <hotspot source="front look" offsetX="783" offsetY="341" />
+      <hotspot source="outer mirror" offsetX="411" offsetY="203" />
+      <hotspot source="wheel" offsetX="223" offsetY="365" />
+      <hotspot source="enter" offsetX="334" offsetY="256" />
+      <hotspot source="side visor" offsetX="389" offsetY="142" />
+      <hotspot source="turning radius" offsetX="551" offsetY="204" />
+      <highres src="images/highres/02_Yaris_GR_EXT_23.jpg?t=1673520840" />
+    </image>
+  </images>
+</config>

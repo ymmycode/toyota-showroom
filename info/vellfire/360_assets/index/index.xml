@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/10_Vellfire_ext_01.jpg?t=1631710698" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="false" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" />
+    <control dragSpeed="0.13" doubleClickZooms="false" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="false" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot3" renderMode="0" indicatorImage="button_rear view.png" activateOnClick="true" effects="scaleUp">
+      <spotinfo clickAction="3" />
+    </hotspot>
+    <hotspot id="spot4" renderMode="0" indicatorImage="button_front view.png" activateOnClick="true" effects="scaleUp">
+      <spotinfo clickAction="4" />
+    </hotspot>
+    <hotspot id="spot5" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/10_Vellfire_ext_ftrs_01.jpg?t=1631710698" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot6" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/10_Vellfire_ext_ftrs_02.jpg?t=1631710698" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot7" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/10_Vellfire_ext_ftrs_03.jpg?t=1631710698" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot8" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/10_Vellfire_ext_ftrs_04.jpg?t=1631710698" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot9" renderMode="0" indicatorImage="Out Small.png" effects="scaleUp">
+      <spotinfo url="https://toyotavshowroom.com/info/vellfire/int/" urlTarget="_self" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/10_Vellfire_ext_01.jpg?t=1631710698">
+      <hotspot source="spot3" offsetX="539" offsetY="571" />
+      <hotspot source="spot5" offsetX="756" offsetY="343" />
+      <hotspot source="spot6" offsetX="294" offsetY="413" />
+      <hotspot source="spot9" offsetX="309" offsetY="241" />
+      <highres src="images/highres/10_Vellfire_ext_01.jpg?t=1631710698" />
+    </image>
+    <image src="images/10_Vellfire_ext_02.jpg?t=1631710698">
+      <hotspot source="spot4" offsetX="540" offsetY="572" />
+      <hotspot source="spot6" offsetX="338" offsetY="404" />
+      <hotspot source="spot7" offsetX="769" offsetY="335" />
+      <hotspot source="spot8" offsetX="862" offsetY="229" />
+      <hotspot source="spot9" offsetX="278" offsetY="245" />
+      <highres src="images/highres/10_Vellfire_ext_02.jpg?t=1631710698" />
+    </image>
+  </images>
+</config>

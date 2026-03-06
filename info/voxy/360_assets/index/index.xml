@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/11_Voxy_ext_01.jpg?t=1631698477" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="false" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot1" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/11_Voxy_extr_ftrs_01.jpg?t=1631698477" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot2" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/11_Voxy_extr_ftrs_02.jpg?t=1631698477" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot3" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/11_Voxy_extr_ftrs_03.jpg?t=1631698477" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot4" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/11_Voxy_extr_ftrs_4.jpg?t=1631698477" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot5" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/11_Voxy_extr_ftrs_05.jpg?t=1631698477" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot6" renderMode="0" indicatorImage="Out Small.png" effects="scaleUp">
+      <spotinfo url="https://toyotavshowroom.com/info/voxy/int/" urlTarget="_self" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1382" highresHeight="778">
+    <image src="images/11_Voxy_ext_01.jpg?t=1631698477">
+      <hotspot source="spot1" offsetX="628" offsetY="388" />
+      <hotspot source="spot4" offsetX="457" offsetY="436" />
+      <hotspot source="spot5" offsetX="464" offsetY="318" />
+      <highres src="images/highres/11_Voxy_ext_01.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_02.jpg?t=1631698477">
+      <hotspot source="spot1" offsetX="503" offsetY="392" />
+      <hotspot source="spot4" offsetX="649" offsetY="407" />
+      <hotspot source="spot5" offsetX="354" offsetY="316" />
+      <hotspot source="spot6" offsetX="634" offsetY="291" />
+      <highres src="images/highres/11_Voxy_ext_02.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_03.jpg?t=1631698477">
+      <hotspot source="spot1" offsetX="378" offsetY="388" />
+      <hotspot source="spot2" offsetX="501" offsetY="404" />
+      <hotspot source="spot4" offsetX="660" offsetY="411" />
+      <hotspot source="spot5" offsetX="275" offsetY="312" />
+      <hotspot source="spot6" offsetX="611" offsetY="295" />
+      <highres src="images/highres/11_Voxy_ext_03.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_05.jpg?t=1631698477">
+      <hotspot source="spot2" offsetX="354" offsetY="393" />
+      <hotspot source="spot4" offsetX="621" offsetY="414" />
+      <hotspot source="spot6" offsetX="531" offsetY="291" />
+      <highres src="images/highres/11_Voxy_ext_05.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_07.jpg?t=1631698477">
+      <hotspot source="spot2" offsetX="315" offsetY="382" />
+      <hotspot source="spot3" offsetX="795" offsetY="318" />
+      <hotspot source="spot4" offsetX="551" offsetY="415" />
+      <hotspot source="spot6" offsetX="457" offsetY="290" />
+      <highres src="images/highres/11_Voxy_ext_07.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_08.jpg?t=1631698477">
+      <hotspot source="spot2" offsetX="339" offsetY="379" />
+      <hotspot source="spot3" offsetX="700" offsetY="317" />
+      <hotspot source="spot4" offsetX="516" offsetY="417" />
+      <hotspot source="spot6" offsetX="434" offsetY="293" />
+      <highres src="images/highres/11_Voxy_ext_08.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_10.jpg?t=1631698477">
+      <hotspot source="spot3" offsetX="455" offsetY="322" />
+      <highres src="images/highres/11_Voxy_ext_10.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_11.jpg?t=1631698477">
+      <hotspot source="spot2" offsetX="696" offsetY="371" />
+      <hotspot source="spot3" offsetX="336" offsetY="314" />
+      <hotspot source="spot4" offsetX="617" offsetY="413" />
+      <hotspot source="spot6" offsetX="654" offsetY="290" />
+      <highres src="images/highres/11_Voxy_ext_11.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_12.jpg?t=1631698477">
+      <hotspot source="spot2" offsetX="738" offsetY="377" />
+      <hotspot source="spot3" offsetX="265" offsetY="311" />
+      <hotspot source="spot4" offsetX="574" offsetY="416" />
+      <hotspot source="spot6" offsetX="646" offsetY="293" />
+      <highres src="images/highres/11_Voxy_ext_12.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_15.jpg?t=1631698477">
+      <hotspot source="spot2" offsetX="724" offsetY="395" />
+      <hotspot source="spot4" offsetX="429" offsetY="414" />
+      <hotspot source="spot6" offsetX="553" offsetY="295" />
+      <highres src="images/highres/11_Voxy_ext_15.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_16.jpg?t=1631698477">
+      <hotspot source="spot2" offsetX="661" offsetY="397" />
+      <hotspot source="spot4" offsetX="408" offsetY="408" />
+      <hotspot source="spot5" offsetX="798" offsetY="316" />
+      <hotspot source="spot6" offsetX="510" offsetY="294" />
+      <highres src="images/highres/11_Voxy_ext_16.jpg?t=1631698477" />
+    </image>
+    <image src="images/11_Voxy_ext_18.jpg?t=1631698477">
+      <hotspot source="spot1" offsetX="744" offsetY="384" />
+      <hotspot source="spot2" offsetX="489" offsetY="400" />
+      <hotspot source="spot4" offsetX="422" offsetY="404" />
+      <hotspot source="spot5" offsetX="596" offsetY="321" />
+      <hotspot source="spot6" offsetX="444" offsetY="292" />
+      <highres src="images/highres/11_Voxy_ext_18.jpg?t=1631698477" />
+    </image>
+  </images>
+</config>

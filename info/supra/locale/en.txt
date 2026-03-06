@@ -1,0 +1,25 @@
+#: locale=en
+
+## Media
+
+### Title
+photo_90FD52C7_82E0_1A6E_41E0_1509CC73C055.label = 03_Supra_intr_ftrs_01
+photo_90FD52C7_82E0_1A6E_41E0_1509CC73C055.label = 03_Supra_intr_ftrs_01
+photo_9306D540_82E0_1E61_41D1_BE52EC9032E1.label = 03_Supra_intr_ftrs_02
+photo_9306D540_82E0_1E61_41D1_BE52EC9032E1.label = 03_Supra_intr_ftrs_02
+photo_9305A623_82E0_1A27_41D7_BB990EEFDE07.label = 03_Supra_intr_ftrs_03
+photo_9305A623_82E0_1A27_41D7_BB990EEFDE07.label = 03_Supra_intr_ftrs_03
+photo_9305D716_82E0_1BE1_41DD_8477B14232C7.label = 03_Supra_intr_ftrs_04
+photo_9305D716_82E0_1BE1_41DD_8477B14232C7.label = 03_Supra_intr_ftrs_04
+photo_93059802_82E0_15E1_41D1_963CC624E920.label = 03_Supra_intr_ftrs_05
+photo_93059802_82E0_15E1_41D1_963CC624E920.label = 03_Supra_intr_ftrs_05
+photo_9305E8DD_82E0_1663_41B1_56C9475A7C7F.label = 03_Supra_intr_ftrs_06
+photo_9305E8DD_82E0_1663_41B1_56C9475A7C7F.label = 03_Supra_intr_ftrs_06
+album_C2C6DB4E_E31D_59EF_41DD_DBA8861DF203.label = Photo Album 03_Supra_ext_01_
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Supra GR

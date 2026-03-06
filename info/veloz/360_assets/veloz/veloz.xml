@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/20_Veloz_ext_01.jpg?t=1662183556" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="front_bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/19_Veloz_ext_ftrs-01.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/19_Veloz_ext_ftrs-04.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="outer_mirror" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/19_Veloz_ext_ftrs-05.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rear_lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/19_Veloz_ext_ftrs-03.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="back_door" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/19_Veloz_ext_ftrs-02.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo url="https://toyotavshowroom.com/info/veloz/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="window" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/19_Veloz_ext_ftrs-06.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot8" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/19_Veloz_ext_ftrs-07.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/20_Veloz_ext_01.jpg?t=1662183556">
+      <hotspot source="front_bumper" offsetX="535" offsetY="347" />
+      <hotspot source="outer_mirror" offsetX="735" offsetY="224" />
+      <highres src="images/highres/20_Veloz_ext_01.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_03.jpg?t=1662183556">
+      <hotspot source="front_bumper" offsetX="301" offsetY="342" />
+      <hotspot source="wheel" offsetX="828" offsetY="381" />
+      <hotspot source="outer_mirror" offsetX="641" offsetY="223" />
+      <hotspot source="enter" offsetX="703" offsetY="257" />
+      <hotspot source="window" offsetX="751" offsetY="229" />
+      <hotspot source="spot8" offsetX="829" offsetY="291" />
+      <highres src="images/highres/20_Veloz_ext_03.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_05.jpg?t=1662183556">
+      <hotspot source="front_bumper" offsetX="121" offsetY="334" />
+      <hotspot source="wheel" offsetX="860" offsetY="394" />
+      <hotspot source="outer_mirror" offsetX="512" offsetY="224" />
+      <hotspot source="enter" offsetX="611" offsetY="260" />
+      <hotspot source="window" offsetX="722" offsetY="231" />
+      <hotspot source="spot8" offsetX="859" offsetY="297" />
+      <highres src="images/highres/20_Veloz_ext_05.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_07.jpg?t=1662183556">
+      <hotspot source="wheel" offsetX="817" offsetY="415" />
+      <hotspot source="outer_mirror" offsetX="367" offsetY="232" />
+      <hotspot source="rear_lamp" offsetX="970" offsetY="247" />
+      <hotspot source="enter" offsetX="505" offsetY="271" />
+      <hotspot source="window" offsetX="653" offsetY="242" />
+      <hotspot source="spot8" offsetX="815" offsetY="312" />
+      <highres src="images/highres/20_Veloz_ext_07.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_09.jpg?t=1662183556">
+      <hotspot source="wheel" offsetX="678" offsetY="426" />
+      <hotspot source="outer_mirror" offsetX="288" offsetY="234" />
+      <hotspot source="rear_lamp" offsetX="890" offsetY="250" />
+      <hotspot source="back_door" offsetX="942" offsetY="379" />
+      <hotspot source="enter" offsetX="403" offsetY="270" />
+      <hotspot source="window" offsetX="558" offsetY="243" />
+      <hotspot source="spot8" offsetX="671" offsetY="319" />
+      <highres src="images/highres/20_Veloz_ext_09.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_11.jpg?t=1662183556">
+      <hotspot source="wheel" offsetX="485" offsetY="429" />
+      <hotspot source="outer_mirror" offsetX="250" offsetY="230" />
+      <hotspot source="rear_lamp" offsetX="591" offsetY="253" />
+      <hotspot source="back_door" offsetX="755" offsetY="397" />
+      <hotspot source="enter" offsetX="333" offsetY="270" />
+      <hotspot source="window" offsetX="417" offsetY="244" />
+      <hotspot source="spot8" offsetX="476" offsetY="322" />
+      <highres src="images/highres/20_Veloz_ext_11.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_13.jpg?t=1662183556">
+      <hotspot source="outer_mirror" offsetX="343" offsetY="225" />
+      <hotspot source="rear_lamp" offsetX="360" offsetY="250" />
+      <hotspot source="back_door" offsetX="534" offsetY="400" />
+      <highres src="images/highres/20_Veloz_ext_13.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_15.jpg?t=1662183556">
+      <hotspot source="wheel" offsetX="585" offsetY="429" />
+      <hotspot source="outer_mirror" offsetX="814" offsetY="231" />
+      <hotspot source="rear_lamp" offsetX="198" offsetY="247" />
+      <hotspot source="back_door" offsetX="308" offsetY="398" />
+      <hotspot source="enter" offsetX="733" offsetY="271" />
+      <hotspot source="window" offsetX="654" offsetY="245" />
+      <hotspot source="spot8" offsetX="590" offsetY="322" />
+      <highres src="images/highres/20_Veloz_ext_15.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_17.jpg?t=1662183556">
+      <hotspot source="wheel" offsetX="388" offsetY="426" />
+      <hotspot source="outer_mirror" offsetX="788" offsetY="230" />
+      <hotspot source="rear_lamp" offsetX="218" offsetY="250" />
+      <hotspot source="back_door" offsetX="129" offsetY="386" />
+      <hotspot source="enter" offsetX="664" offsetY="272" />
+      <hotspot source="window" offsetX="528" offsetY="244" />
+      <hotspot source="spot8" offsetX="387" offsetY="317" />
+      <highres src="images/highres/20_Veloz_ext_17.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_20.jpg?t=1662183556">
+      <hotspot source="wheel" offsetX="252" offsetY="415" />
+      <hotspot source="outer_mirror" offsetX="703" offsetY="231" />
+      <hotspot source="rear_lamp" offsetX="102" offsetY="246" />
+      <hotspot source="enter" offsetX="560" offsetY="271" />
+      <hotspot source="window" offsetX="410" offsetY="240" />
+      <hotspot source="spot8" offsetX="250" offsetY="314" />
+      <highres src="images/highres/20_Veloz_ext_20.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_21.jpg?t=1662183556">
+      <hotspot source="front_bumper" offsetX="944" offsetY="336" />
+      <hotspot source="wheel" offsetX="208" offsetY="392" />
+      <hotspot source="outer_mirror" offsetX="565" offsetY="223" />
+      <hotspot source="rear_lamp" offsetX="105" offsetY="236" />
+      <hotspot source="enter" offsetX="455" offsetY="262" />
+      <hotspot source="window" offsetX="346" offsetY="231" />
+      <hotspot source="spot8" offsetX="209" offsetY="294" />
+      <highres src="images/highres/20_Veloz_ext_21.jpg?t=1662183556" />
+    </image>
+    <image src="images/20_Veloz_ext_23.jpg?t=1662183556">
+      <hotspot source="front_bumper" offsetX="762" offsetY="347" />
+      <hotspot source="wheel" offsetX="242" offsetY="379" />
+      <hotspot source="outer_mirror" offsetX="407" offsetY="224" />
+      <hotspot source="enter" offsetX="361" offsetY="259" />
+      <hotspot source="window" offsetX="315" offsetY="228" />
+      <hotspot source="spot8" offsetX="235" offsetY="287" />
+      <highres src="images/highres/20_Veloz_ext_23.jpg?t=1662183556" />
+    </image>
+  </images>
+</config>

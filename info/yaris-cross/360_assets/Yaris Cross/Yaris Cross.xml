@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/02_Yaris_Cross_EXT_01.jpg?t=1690449769" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="empty" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_02.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="backdoor" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_01.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo url="https://toyotavshowroom.com/info/yaris-cross/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="Lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_03.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rear lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_04.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="mirror" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_05.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="aerokit" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_06.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="fog lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_07.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="roof rail" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_08.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="lugage" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_09.png?t=1690449769" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/02_Yaris_Cross_EXT_01.jpg?t=1690449769">
+      <hotspot source="Lamp" offsetX="689" offsetY="296" />
+      <hotspot source="mirror" offsetX="731" offsetY="218" />
+      <hotspot source="fog lamp" offsetX="711" offsetY="350" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_01.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_02.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="646" offsetY="413" />
+      <hotspot source="enter" offsetX="704" offsetY="257" />
+      <hotspot source="Lamp" offsetX="572" offsetY="295" />
+      <hotspot source="mirror" offsetX="687" offsetY="219" />
+      <hotspot source="fog lamp" offsetX="583" offsetY="355" />
+      <hotspot source="roof rail" offsetX="667" offsetY="160" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_02.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_03.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="551" offsetY="416" />
+      <hotspot source="enter" offsetX="689" offsetY="255" />
+      <hotspot source="Lamp" offsetX="444" offsetY="296" />
+      <hotspot source="mirror" offsetX="636" offsetY="219" />
+      <hotspot source="fog lamp" offsetX="450" offsetY="356" />
+      <hotspot source="roof rail" offsetX="645" offsetY="159" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_03.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_04.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="245" offsetY="404" />
+      <hotspot source="enter" offsetX="531" offsetY="257" />
+      <hotspot source="Lamp" offsetX="114" offsetY="285" />
+      <hotspot source="rear lamp" offsetX="961" offsetY="241" />
+      <hotspot source="mirror" offsetX="389" offsetY="223" />
+      <hotspot source="roof rail" offsetX="505" offsetY="160" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_04.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_05.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="210" offsetY="393" />
+      <hotspot source="backdoor" offsetX="948" offsetY="332" />
+      <hotspot source="enter" offsetX="438" offsetY="256" />
+      <hotspot source="Lamp" offsetX="139" offsetY="274" />
+      <hotspot source="rear lamp" offsetX="853" offsetY="246" />
+      <hotspot source="mirror" offsetX="318" offsetY="222" />
+      <hotspot source="aerokit" offsetX="953" offsetY="388" />
+      <hotspot source="roof rail" offsetX="441" offsetY="159" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_05.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_06.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="261" offsetY="384" />
+      <hotspot source="backdoor" offsetX="788" offsetY="340" />
+      <hotspot source="enter" offsetX="375" offsetY="253" />
+      <hotspot source="rear lamp" offsetX="632" offsetY="246" />
+      <hotspot source="mirror" offsetX="306" offsetY="222" />
+      <hotspot source="aerokit" offsetX="787" offsetY="402" />
+      <hotspot source="roof rail" offsetX="402" offsetY="161" />
+      <hotspot source="lugage" offsetX="743" offsetY="234" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_06.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_07.jpg?t=1690449769">
+      <hotspot source="backdoor" offsetX="529" offsetY="346" />
+      <hotspot source="rear lamp" offsetX="372" offsetY="246" />
+      <hotspot source="aerokit" offsetX="531" offsetY="406" />
+      <hotspot source="lugage" offsetX="576" offsetY="235" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_07.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_08.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="805" offsetY="380" />
+      <hotspot source="backdoor" offsetX="278" offsetY="344" />
+      <hotspot source="enter" offsetX="689" offsetY="253" />
+      <hotspot source="rear lamp" offsetX="436" offsetY="251" />
+      <hotspot source="mirror" offsetX="760" offsetY="221" />
+      <hotspot source="aerokit" offsetX="276" offsetY="399" />
+      <hotspot source="roof rail" offsetX="662" offsetY="160" />
+      <hotspot source="lugage" offsetX="320" offsetY="235" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_08.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_09.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="856" offsetY="393" />
+      <hotspot source="backdoor" offsetX="120" offsetY="335" />
+      <hotspot source="enter" offsetX="629" offsetY="255" />
+      <hotspot source="Lamp" offsetX="926" offsetY="274" />
+      <hotspot source="rear lamp" offsetX="216" offsetY="248" />
+      <hotspot source="mirror" offsetX="751" offsetY="219" />
+      <hotspot source="aerokit" offsetX="115" offsetY="388" />
+      <hotspot source="roof rail" offsetX="623" offsetY="157" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_09.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_010.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="824" offsetY="406" />
+      <hotspot source="enter" offsetX="535" offsetY="256" />
+      <hotspot source="Lamp" offsetX="950" offsetY="285" />
+      <hotspot source="rear lamp" offsetX="112" offsetY="242" />
+      <hotspot source="mirror" offsetX="680" offsetY="222" />
+      <hotspot source="roof rail" offsetX="552" offsetY="159" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_010.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_011.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="699" offsetY="415" />
+      <hotspot source="enter" offsetX="441" offsetY="255" />
+      <hotspot source="Lamp" offsetX="842" offsetY="291" />
+      <hotspot source="mirror" offsetX="560" offsetY="219" />
+      <hotspot source="fog lamp" offsetX="843" offsetY="351" />
+      <hotspot source="roof rail" offsetX="485" offsetY="157" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_011.jpg?t=1690449769" />
+    </image>
+    <image src="images/02_Yaris_Cross_EXT_012.jpg?t=1690449769">
+      <hotspot source="wheel" offsetX="518" offsetY="419" />
+      <hotspot source="enter" offsetX="378" offsetY="254" />
+      <hotspot source="Lamp" offsetX="625" offsetY="295" />
+      <hotspot source="mirror" offsetX="431" offsetY="219" />
+      <hotspot source="fog lamp" offsetX="614" offsetY="354" />
+      <hotspot source="roof rail" offsetX="420" offsetY="159" />
+      <highres src="images/highres/02_Yaris_Cross_EXT_012.jpg?t=1690449769" />
+    </image>
+  </images>
+</config>

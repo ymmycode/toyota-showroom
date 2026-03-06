@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/13_Rush_ext_01.jpg?t=1673009866" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/rush-gr/int/" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="spot2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-01.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot3" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-02.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot4" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-03.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot5" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-04.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot6" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-05.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot7" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-06.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot8" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-07.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot9" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-08.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot10" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-09.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot11" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/rush_exterior features-10.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/13_Rush_ext_01.jpg?t=1673009866">
+      <hotspot source="spot2" offsetX="693" offsetY="289" />
+      <hotspot source="spot3" offsetX="537" offsetY="349" />
+      <hotspot source="spot4" offsetX="540" offsetY="447" />
+      <hotspot source="spot9" offsetX="750" offsetY="207" />
+      <highres src="images/highres/13_Rush_ext_01.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_03.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="678" offsetY="262" />
+      <hotspot source="spot2" offsetX="434" offsetY="286" />
+      <hotspot source="spot3" offsetX="272" offsetY="341" />
+      <hotspot source="spot4" offsetX="274" offsetY="435" />
+      <hotspot source="spot7" offsetX="770" offsetY="240" />
+      <hotspot source="spot8" offsetX="694" offsetY="382" />
+      <hotspot source="spot9" offsetX="621" offsetY="199" />
+      <hotspot source="spot11" offsetX="531" offsetY="429" />
+      <highres src="images/highres/13_Rush_ext_03.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_05.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="508" offsetY="263" />
+      <hotspot source="spot2" offsetX="210" offsetY="283" />
+      <hotspot source="spot3" offsetX="103" offsetY="335" />
+      <hotspot source="spot4" offsetX="107" offsetY="420" />
+      <hotspot source="spot7" offsetX="784" offsetY="243" />
+      <hotspot source="spot8" offsetX="635" offsetY="385" />
+      <hotspot source="spot9" offsetX="483" offsetY="201" />
+      <hotspot source="spot11" offsetX="333" offsetY="424" />
+      <highres src="images/highres/13_Rush_ext_05.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_07.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="508" offsetY="263" />
+      <hotspot source="spot2" offsetX="110" offsetY="278" />
+      <hotspot source="spot5" offsetX="986" offsetY="236" />
+      <hotspot source="spot6" offsetX="996" offsetY="394" />
+      <hotspot source="spot7" offsetX="734" offsetY="242" />
+      <hotspot source="spot8" offsetX="554" offsetY="383" />
+      <hotspot source="spot9" offsetX="367" offsetY="202" />
+      <hotspot source="spot11" offsetX="215" offsetY="415" />
+      <highres src="images/highres/13_Rush_ext_07.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_09.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="420" offsetY="260" />
+      <hotspot source="spot5" offsetX="884" offsetY="239" />
+      <hotspot source="spot6" offsetX="970" offsetY="398" />
+      <hotspot source="spot7" offsetX="622" offsetY="242" />
+      <hotspot source="spot8" offsetX="461" offsetY="381" />
+      <hotspot source="spot9" offsetX="293" offsetY="201" />
+      <hotspot source="spot10" offsetX="995" offsetY="299" />
+      <hotspot source="spot11" offsetX="187" offsetY="401" />
+      <highres src="images/highres/13_Rush_ext_09.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_11.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="369" offsetY="260" />
+      <hotspot source="spot5" offsetX="656" offsetY="234" />
+      <hotspot source="spot6" offsetX="803" offsetY="415" />
+      <hotspot source="spot7" offsetX="483" offsetY="240" />
+      <hotspot source="spot8" offsetX="394" offsetY="378" />
+      <hotspot source="spot9" offsetX="296" offsetY="202" />
+      <hotspot source="spot10" offsetX="891" offsetY="304" />
+      <hotspot source="spot11" offsetX="255" offsetY="391" />
+      <highres src="images/highres/13_Rush_ext_11.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_13.jpg?t=1673009866">
+      <hotspot source="spot5" offsetX="383" offsetY="232" />
+      <hotspot source="spot6" offsetX="539" offsetY="420" />
+      <hotspot source="spot10" offsetX="659" offsetY="307" />
+      <highres src="images/highres/13_Rush_ext_13.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_15.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="705" offsetY="258" />
+      <hotspot source="spot5" offsetX="171" offsetY="236" />
+      <hotspot source="spot6" offsetX="271" offsetY="412" />
+      <hotspot source="spot7" offsetX="595" offsetY="242" />
+      <hotspot source="spot8" offsetX="682" offsetY="380" />
+      <hotspot source="spot10" offsetX="375" offsetY="308" />
+      <hotspot source="spot11" offsetX="823" offsetY="392" />
+      <highres src="images/highres/13_Rush_ext_15.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_17.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="655" offsetY="261" />
+      <hotspot source="spot5" offsetX="190" offsetY="235" />
+      <hotspot source="spot6" offsetX="101" offsetY="399" />
+      <hotspot source="spot7" offsetX="459" offsetY="243" />
+      <hotspot source="spot8" offsetX="614" offsetY="384" />
+      <hotspot source="spot10" offsetX="166" offsetY="301" />
+      <hotspot source="spot11" offsetX="889" offsetY="399" />
+      <highres src="images/highres/13_Rush_ext_17.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_19.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="558" offsetY="262" />
+      <hotspot source="spot2" offsetX="961" offsetY="281" />
+      <hotspot source="spot5" offsetX="78" offsetY="233" />
+      <hotspot source="spot6" offsetX="68" offsetY="389" />
+      <hotspot source="spot7" offsetX="336" offsetY="243" />
+      <hotspot source="spot8" offsetX="513" offsetY="385" />
+      <hotspot source="spot11" offsetX="856" offsetY="412" />
+      <highres src="images/highres/13_Rush_ext_19.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_21.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="476" offsetY="263" />
+      <hotspot source="spot2" offsetX="869" offsetY="284" />
+      <hotspot source="spot3" offsetX="972" offsetY="334" />
+      <hotspot source="spot4" offsetX="974" offsetY="420" />
+      <hotspot source="spot7" offsetX="294" offsetY="242" />
+      <hotspot source="spot8" offsetX="441" offsetY="383" />
+      <hotspot source="spot11" offsetX="742" offsetY="425" />
+      <highres src="images/highres/13_Rush_ext_21.jpg?t=1673009866" />
+    </image>
+    <image src="images/13_Rush_ext_23.jpg?t=1673009866">
+      <hotspot source="enter" offsetX="402" offsetY="263" />
+      <hotspot source="spot2" offsetX="643" offsetY="290" />
+      <hotspot source="spot3" offsetX="806" offsetY="343" />
+      <hotspot source="spot4" offsetX="815" offsetY="439" />
+      <hotspot source="spot7" offsetX="308" offsetY="243" />
+      <hotspot source="spot8" offsetX="383" offsetY="384" />
+      <hotspot source="spot9" offsetX="806" offsetY="202" />
+      <hotspot source="spot11" offsetX="549" offsetY="430" />
+      <highres src="images/highres/13_Rush_ext_23.jpg?t=1673009866" />
+    </image>
+  </images>
+</config>
