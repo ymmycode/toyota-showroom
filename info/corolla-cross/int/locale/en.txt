@@ -19,5 +19,5 @@ panorama_C3F81872_E5F5_67B7_41D3_1D00D80DCF78.label = 06_Corolla_intr
 ## Action
 
 ### URL
-LinkBehaviour_CE3FA1B2_E51B_28B7_41E8_6B90398EE12B.source = https://toyotavshowroom.retronim.com/info/corolla-cross
-LinkBehaviour_CE431B2D_E51B_59AD_41E8_A80E3A9B29F4.source = https://toyotavshowroom.retronim.com/info/corolla-cross
+LinkBehaviour_CE3FA1B2_E51B_28B7_41E8_6B90398EE12B.source = http://toyotavshowroom.retronim.com/info/corolla-cross
+LinkBehaviour_CE431B2D_E51B_59AD_41E8_A80E3A9B29F4.source = http://toyotavshowroom.retronim.com/info/corolla-cross

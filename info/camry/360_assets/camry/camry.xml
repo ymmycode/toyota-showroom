@@ -14,7 +14,7 @@
       <spotinfo src="images/spots/08_Camry_extr_ftrs_03.png?t=1673249289" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
-      <spotinfo url="https://toyotavshowroom.retronim.com/info/camry/int" urlTarget="_self" />
+      <spotinfo url="http://toyotavshowroom.retronim.com/info/camry/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="front bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
       <spotinfo src="images/spots/08_Camry_extr_ftrs_01.png?t=1673249289" imgWidth="320" imgNoScale="true" />

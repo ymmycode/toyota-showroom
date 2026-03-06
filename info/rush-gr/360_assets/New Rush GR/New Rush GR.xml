@@ -8,7 +8,7 @@
   </settings>
   <hotspots>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="https://toyotavshowroom.retronim.com/info/rush-gr/int/" urlTarget="_self" />
+      <spotinfo url="http://toyotavshowroom.retronim.com/info/rush-gr/int/" urlTarget="_self" />
     </hotspot>
     <hotspot id="spot2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
       <spotinfo src="images/spots/rush_exterior features-01.jpg?t=1673009866" imgWidth="320" imgNoScale="true" />

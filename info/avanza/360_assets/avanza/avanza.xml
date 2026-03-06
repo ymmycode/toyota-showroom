@@ -23,7 +23,7 @@
       <spotinfo src="images/spots/18_Avanza_ext_ftrs-06.jpg?t=1662131260" imgWidth="321" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
-      <spotinfo url="https://toyotavshowroom.retronim.com/info/avanza/int" urlTarget="_self" />
+      <spotinfo url="http://toyotavshowroom.retronim.com/info/avanza/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="rear_lamp2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
       <spotinfo src="images/spots/18_Avanza_ext_ftrs-05.jpg?t=1662131260" imgWidth="321" imgNoScale="true" />

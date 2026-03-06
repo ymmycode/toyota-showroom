@@ -26,7 +26,7 @@
       <spotinfo src="images/spots/06_Corolla_ext_ftrs_06.jpg" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp">
-      <spotinfo url="https://toyotavshowroom.retronim.com/info/corolla-cross/int" urlTarget="_self" />
+      <spotinfo url="http://toyotavshowroom.retronim.com/info/corolla-cross/int" urlTarget="_self" />
     </hotspot>
   </hotspots>
   <images rows="1">

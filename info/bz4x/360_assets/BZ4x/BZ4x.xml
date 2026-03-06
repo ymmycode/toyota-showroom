@@ -23,7 +23,7 @@
       <spotinfo src="images/spots/24_BZ4X_ext_ftrs-01.png?t=1669950537" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="https://toyotavshowroom.retronim.com/info/bz4x/int" urlTarget="_self" />
+      <spotinfo url="http://toyotavshowroom.retronim.com/info/bz4x/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="panoramic-roof" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
       <spotinfo src="images/spots/24_BZ4X_ext_ftrs-02.jpg?t=1669950537" imgWidth="320" imgNoScale="true" />

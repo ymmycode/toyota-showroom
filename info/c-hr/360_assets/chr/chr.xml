@@ -20,7 +20,7 @@
       <spotinfo src="images/spots/05_C-hr_ext_ftrs_03-02.jpg?t=1673493818" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp">
-      <spotinfo url="https://toyotavshowroom.retronim.com/info/c-hr/int" urlTarget="_self" />
+      <spotinfo url="http://toyotavshowroom.retronim.com/info/c-hr/int" urlTarget="_self" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="1920" highresHeight="1080">

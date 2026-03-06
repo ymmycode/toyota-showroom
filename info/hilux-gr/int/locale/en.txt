@@ -3,7 +3,7 @@
 ## Action
 
 ### URL
-LinkBehaviour_CD058399_E51E_E975_41CA_4F6A0599D45B.source = https://toyotavshowroom.retronim.com/info/hilux-gr
+LinkBehaviour_CD058399_E51E_E975_41CA_4F6A0599D45B.source = http://toyotavshowroom.retronim.com/info/hilux-gr
 
 ## Media
 

@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_C123D63F_DDB6_FC27_41DC_DF15CF79BB1C.source = https://toyotavshowroom.retronim.com/info/veloz
-LinkBehaviour_C69F33F7_DDB7_D427_41CB_B91682D71DEE.source = https://toyotavshowroom.retronim.com/info/veloz
+LinkBehaviour_C123D63F_DDB6_FC27_41DC_DF15CF79BB1C.source = http://toyotavshowroom.retronim.com/info/veloz
+LinkBehaviour_C69F33F7_DDB7_D427_41CB_B91682D71DEE.source = http://toyotavshowroom.retronim.com/info/veloz
 
 ## Media
 

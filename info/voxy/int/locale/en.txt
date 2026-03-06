@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_9F7F4CEA_A1B9_3590_41C0_7BFF01F3E4AE.source = https://toyotavshowroom.retronim.com/info/voxy
-LinkBehaviour_9FE5B37D_A1B9_D370_41E2_8C30BFB7F4C8.source = https://toyotavshowroom.retronim.com/info/voxy
+LinkBehaviour_9F7F4CEA_A1B9_3590_41C0_7BFF01F3E4AE.source = http://toyotavshowroom.retronim.com/info/voxy
+LinkBehaviour_9FE5B37D_A1B9_D370_41E2_8C30BFB7F4C8.source = http://toyotavshowroom.retronim.com/info/voxy
 
 ## Media
 

@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_9724238C_A157_5390_41D0_498E30BBFD17.source = https://toyotavshowroom.retronim.com/info/vellfire
-LinkBehaviour_978FD941_A157_5C90_41E2_39B17071E565.source = https://toyotavshowroom.retronim.com/info/vellfire
+LinkBehaviour_9724238C_A157_5390_41D0_498E30BBFD17.source = http://toyotavshowroom.retronim.com/info/vellfire
+LinkBehaviour_978FD941_A157_5C90_41E2_39B17071E565.source = http://toyotavshowroom.retronim.com/info/vellfire
 
 ## Media
 

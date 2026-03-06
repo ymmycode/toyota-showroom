@@ -23,7 +23,7 @@
       <spotinfo src="images/spots/23_CMPV_ext_ftrs-03.png?t=1670916297" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="https://toyotavshowroom.retronim.com/info/cmpv-innova-zenix/int" urlTarget="_self" />
+      <spotinfo url="http://toyotavshowroom.retronim.com/info/cmpv-innova-zenix/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="rear-bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
       <spotinfo src="images/spots/23_CMPV_ext_ftrs-06.png?t=1670916297" imgWidth="320" imgNoScale="true" />

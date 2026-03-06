@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_FC4A8732_E30B_29B7_41C7_DBA52A807D54.source = https://toyotavshowroom.retronim.com/info/c-hr
-LinkBehaviour_FC6A5F89_E30B_3955_41CF_329D94E20EDD.source = https://toyotavshowroom.retronim.com/info/c-hr
+LinkBehaviour_FC4A8732_E30B_29B7_41C7_DBA52A807D54.source = http://toyotavshowroom.retronim.com/info/c-hr
+LinkBehaviour_FC6A5F89_E30B_3955_41CF_329D94E20EDD.source = http://toyotavshowroom.retronim.com/info/c-hr
 
 ## Media
 

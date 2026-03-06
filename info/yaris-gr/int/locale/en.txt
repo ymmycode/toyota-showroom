@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_B7137401_96AF_887B_41DF_B802D55577A2.source = https://toyotavshowroom.retronim.com/info/yaris-gr
-LinkBehaviour_B75B382E_96AF_9889_419D_8E4A1B09276B.source = https://toyotavshowroom.retronim.com/info/yaris-gr
+LinkBehaviour_B7137401_96AF_887B_41DF_B802D55577A2.source = http://toyotavshowroom.retronim.com/info/yaris-gr
+LinkBehaviour_B75B382E_96AF_9889_419D_8E4A1B09276B.source = http://toyotavshowroom.retronim.com/info/yaris-gr
 
 ## Media
 
