@@ -14,7 +14,7 @@
       <spotinfo src="images/spots/09_Alphard_ext_ftrs_06.png?t=1692607200" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
-      <spotinfo url="https://toyotavshowroom.com/info/new-alphard/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/new-alphard/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="front grille" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
       <spotinfo src="images/spots/09_Alphard_ext_ftrs_01.png?t=1692607200" imgWidth="320" imgNoScale="true" />

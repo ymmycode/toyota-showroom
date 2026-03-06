@@ -17,7 +17,7 @@
       <spotinfo src="images/spots/01_Raize_ext_Ftrs_08.jpg?t=1692797527" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="https://toyotavshowroom.com/info/raize-gr/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/raize-gr/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
       <spotinfo src="images/spots/01_Raize_ext_Ftrs_07.jpg?t=1692797527" imgWidth="320" imgNoScale="true" />

@@ -23,7 +23,7 @@
       <spotinfo src="images/spots/02_Yaris_ext_ftrs_02.png?t=1669945301" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="https://toyotavshowroom.com/info/gr-yaris/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/gr-yaris/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="aerodinamics" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
       <spotinfo src="images/spots/02_Yaris_ext_ftrs-01.jpg?t=1669945301" imgWidth="320" imgNoScale="true" />

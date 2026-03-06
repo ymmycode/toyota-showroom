@@ -20,7 +20,7 @@
       <spotinfo src="images/spots/15_LC300_ext_ftrs_04.jpg?t=1674814660" imgWidth="300" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
-      <spotinfo url="https://toyotavshowroom.com/info/land-cruiser/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/land-cruiser/int" urlTarget="_self" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="1920" highresHeight="1080">

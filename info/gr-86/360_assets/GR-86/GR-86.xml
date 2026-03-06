@@ -29,7 +29,7 @@
       <spotinfo src="images/spots/22_GR86_extr_ftrs-04 copy.jpg?t=1673002887" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="https://toyotavshowroom.com/info/gr-86/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/gr-86/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="front-bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
       <spotinfo src="images/spots/22_GR86_extr_ftrs_02.png?t=1673002887" imgWidth="320" imgNoScale="true" />

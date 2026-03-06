@@ -23,7 +23,7 @@
       <spotinfo src="images/spots/12_fortuner_ext_ftrs_-05.jpg?t=1673010100" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="https://toyotavshowroom.com/info/fortuner/int/" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/fortuner/int/" urlTarget="_self" />
     </hotspot>
     <hotspot id="sticker" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
       <spotinfo src="images/spots/12_fortuner_ext_ftrs_-06.jpg?t=1673010100" imgWidth="320" imgNoScale="true" />

@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_DAA9ECE9_C3F3_895F_41DA_A1FB4D06F2F3.source = https://toyotavshowroom.com/info/land-cruiser
-LinkBehaviour_DB36F4D6_C3F3_9975_41E7_C5F7C32398D6.source = https://toyotavshowroom.com/info/land-cruiser
+LinkBehaviour_DAA9ECE9_C3F3_895F_41DA_A1FB4D06F2F3.source = https://toyotavshowroom.retronim.com/info/land-cruiser
+LinkBehaviour_DB36F4D6_C3F3_9975_41E7_C5F7C32398D6.source = https://toyotavshowroom.retronim.com/info/land-cruiser
 
 ## Media
 

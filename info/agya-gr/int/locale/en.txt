@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_AD1A3C7F_97F6_7887_41A4_1DA04E9BF1C3.source = https://new-toyotavshowroom.com/info/agya-gr
-LinkBehaviour_AED39207_97F6_8887_41CC_3A500B1E0D6A.source = https://new-toyotavshowroom.com/info/agya-gr
+LinkBehaviour_AD1A3C7F_97F6_7887_41A4_1DA04E9BF1C3.source = https://new-toyotavshowroom.retronim.com/info/agya-gr
+LinkBehaviour_AED39207_97F6_8887_41CC_3A500B1E0D6A.source = https://new-toyotavshowroom.retronim.com/info/agya-gr
 
 ## Media
 
