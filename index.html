@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Toyota Virtual Showroom</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <script src="lib/tdvplayer.js?v=1675339700515"></script>
+    <link rel="shortcut icon" href="favicon.ico?v=1675339700515">
+	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1675339700515">
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1675339700515">
+	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1675339700515">
+	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1675339700515">
+	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1675339700515">
+	<link rel="manifest" href="manifest.json?v=1675339700515">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-config" content="browserconfig.xml">
+	<link rel="preload" href="locale/en.txt?v=1675339700515" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1675339700515" as="script"/>
+	<link rel="preload" href="media/panorama_1D6633E9_05EB_B3B9_4175_8D05FFCCDBEA_0/r/3/0_0.jpg?v=1675339700515" as="image"/>
+	<link rel="preload" href="media/panorama_1D6633E9_05EB_B3B9_4175_8D05FFCCDBEA_0/l/3/0_0.jpg?v=1675339700515" as="image"/>
+	<link rel="preload" href="media/panorama_1D6633E9_05EB_B3B9_4175_8D05FFCCDBEA_0/u/3/0_0.jpg?v=1675339700515" as="image"/>
+	<link rel="preload" href="media/panorama_1D6633E9_05EB_B3B9_4175_8D05FFCCDBEA_0/d/3/0_0.jpg?v=1675339700515" as="image"/>
+	<link rel="preload" href="media/panorama_1D6633E9_05EB_B3B9_4175_8D05FFCCDBEA_0/f/3/0_0.jpg?v=1675339700515" as="image"/>
+	<link rel="preload" href="media/panorama_1D6633E9_05EB_B3B9_4175_8D05FFCCDBEA_0/b/3/0_0.jpg?v=1675339700515" as="image"/>
+	<meta name="description" content="Virtual Tour"/>
+	<meta name="theme-color" content="#000000"/>
+    <script src="script.js?v=1675339700515"></script>
+    <script type="text/javascript">
+        var tour;
+        var devicesUrl = {"general":"script_general.js?v=1675339700515","mobile":"script_mobile.js?v=1675339700515"};
+
+        (function()
+        {
+            var deviceType = ['general'];
+            if(TDV.PlayerAPI.mobile)
+                deviceType.unshift('mobile');
+            if(TDV.PlayerAPI.device == TDV.PlayerAPI.DEVICE_IPAD)
+                deviceType.unshift('ipad');
+            var url;
+            for(var i=0; i<deviceType.length; ++i) {
+                var d = deviceType[i];
+                if(d in devicesUrl) {
+                    url = devicesUrl[d];
+                    break;
+                }
+            }
+            if(typeof url == "object") {
+                var orient = TDV.PlayerAPI.getOrientation();
+                if(orient in url) {
+                    url = url[orient];
+                }
+            }
+            var link = document.createElement('link');
+            link.rel = 'preload';
+            link.href = url;
+            link.as = 'script';
+            var el = document.getElementsByTagName('script')[0];
+            el.parentNode.insertBefore(link, el);
+        })();
+
+        function loadTour()
+        {
+            if(tour) return;
+
+            if (/AppleWebKit/.test(navigator.userAgent) && /Mobile\/\w+/.test(navigator.userAgent)) {
+                var preloadContainer = document.getElementById('preloadContainer');
+                if(preloadContainer)
+                    document.body.style.backgroundColor = window.getComputedStyle(preloadContainer).backgroundColor;
+            }
+
+            var settings = new TDV.PlayerSettings();
+            settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1675339700515');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1675339700515');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1675339700515');
+
+            tour = new TDV.Tour(settings, devicesUrl);
+            tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
+            tour.bind(TDV.Tour.EVENT_TOUR_LOADED, onVirtualTourLoaded);
+            tour.bind(TDV.Tour.EVENT_TOUR_ENDED, onVirtualTourEnded);
+            tour.load();
+        }
+
+        function pauseTour()
+        {
+            if(!tour)
+                return;
+
+            tour.pause();
+        }
+
+        function resumeTour()
+        {
+            if(!tour)
+                return;
+
+            tour.resume();
+        }
+
+        function onVirtualTourInit()
+        {
+            var updateTexts = function() {
+                document.title = this.trans("tour.name")
+            };
+
+            tour.locManager.bind(TDV.Tour.LocaleManager.EVENT_LOCALE_CHANGED, updateTexts.bind(tour.locManager));
+            
+            if (tour.player.cookiesEnabled)
+                enableCookies();
+            else
+                tour.player.bind('enableCookies', enableCookies);
+        }
+
+        function onVirtualTourLoaded()
+        {
+            disposePreloader();
+        }
+
+        function onVirtualTourEnded()
+        {
+
+        }
+
+        function enableCookies()
+        {
+            
+        }
+
+        function setMediaByIndex(index) {
+            if(!tour)
+                return;
+
+            tour.setMediaByIndex(index);
+        }
+
+        function setMediaByName(name)
+        {
+            if(!tour)
+                return;
+
+            tour.setMediaByName(name);
+        }
+
+        function showPreloader()
+        {
+            var preloadContainer = document.getElementById('preloadContainer');
+            if(preloadContainer != undefined)
+                preloadContainer.style.opacity = 1;
+        }
+
+        function disposePreloader()
+        {
+            var preloadContainer = document.getElementById('preloadContainer');
+            if(preloadContainer == undefined)
+                return;
+
+            var transitionEndName = transitionEndEventName();
+            if(transitionEndName)
+            {
+                preloadContainer.addEventListener(transitionEndName, hide, false);
+                preloadContainer.style.opacity = 0;
+                setTimeout(hide, 500); //Force hide. Some cases the transitionend event isn't dispatched with an iFrame.
+            }
+            else
+            {
+                hide();
+            }
+
+            function hide()
+            {
+                
+                document.body.style.backgroundColor = window.getComputedStyle(preloadContainer).backgroundColor;
+                preloadContainer.style.visibility = 'hidden';
+                preloadContainer.style.display = 'none';
+                var videoList = preloadContainer.getElementsByTagName("video");
+                for(var i=0; i<videoList.length; ++i)
+                {
+                    var video = videoList[i];
+                    video.pause();
+                    while (video.children.length)
+                        video.removeChild(video.children[0]);
+                }
+            }
+
+            function transitionEndEventName () {
+                var el = document.createElement('div');
+                var transitions = {
+                        'transition':'transitionend',
+                        'OTransition':'otransitionend',
+                        'MozTransition':'transitionend',
+                        'WebkitTransition':'webkitTransitionEnd'
+                    };
+
+                var t;
+                for (t in transitions) {
+                    if (el.style[t] !== undefined) {
+                        return transitions[t];
+                    }
+                }
+
+                return undefined;
+            }
+        }
+
+        function onBodyClick(){
+            document.body.removeEventListener("click", onBodyClick);
+            document.body.removeEventListener("touchend", onBodyClick);
+            
+        }
+
+        function onLoad() {
+            if (/AppleWebKit/.test(navigator.userAgent) && /Mobile\/\w+/.test(navigator.userAgent))
+            {
+                var onOrientationChange = function()
+                {
+                    document.documentElement.style.height = 'initial';
+                    Array.from(document.querySelectorAll('.fill-viewport')).forEach(function(element)
+                    {
+                        element.classList.toggle('landscape-right', window.orientation == -90);
+                        element.classList.toggle('landscape-left', window.orientation == 90);
+                    });
+                    setTimeout(function()
+                    {
+                        document.documentElement.style.height = '100%';
+                    }, 500);
+                };
+                window.addEventListener('orientationchange', onOrientationChange);
+                onOrientationChange();
+            }
+
+            var params = getParams(location.search.substr(1));
+            if(params.hasOwnProperty("skip-loading"))
+            {
+                loadTour();
+                disposePreloader();
+                return;
+            }
+
+            if (isOVRWeb()){
+                showPreloader();
+                loadTour();
+                return;
+            }
+
+            showPreloader();
+			loadTour();
+        }
+
+        
+
+        function playVideo(video, autoplayMuted, clickComponent) {
+            function isSafariDesktopV11orGreater() {
+                return /^((?!chrome|android|crios|ipad|iphone).)*safari/i.test(navigator.userAgent) && parseFloat(/Version\/([0-9]+\.[0-9]+)/i.exec(navigator.userAgent)[1]) >= 11;
+            }
+
+            function hasAudio (video) {
+                return video.mozHasAudio ||
+                       Boolean(video.webkitAudioDecodedByteCount) ||
+                       Boolean(video.audioTracks && video.audioTracks.length);
+            }
+
+            function detectUserAction() {
+                var component = clickComponent || document.getElementById('preloadContainer');
+                var onVideoClick = function(e) {
+                    if(video.paused) {
+                        video.play();
+                    }
+                    video.muted = false;
+                    if(hasAudio(video))
+                    {
+                        e.stopPropagation();
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                    }
+
+                    component.removeEventListener('click', onVideoClick);
+                    component.removeEventListener('touchend', onVideoClick);
+
+                    if(component == clickComponent) {
+                        setComponentVisibility(false);
+                    }
+                };
+                component.addEventListener("click", onVideoClick);
+                component.addEventListener("touchend", onVideoClick);
+            }
+
+            function setComponentVisibility(visible) {
+                clickComponent.style.visibility = visible ? 'visible' : 'hidden';
+            }
+
+            if (isSafariDesktopV11orGreater()) {
+                if(autoplayMuted) {
+                    video.muted = true;
+                    video.play();
+                }
+            } else {
+                var canPlay = true;
+                var promise = video.play();
+                if (promise) {
+                    promise.catch(function() {
+                        if(clickComponent)
+                            setComponentVisibility(true);
+                        canPlay = false;
+                        if(autoplayMuted) {
+                            video.muted = true;
+                            video.play();
+                        }
+                        detectUserAction();
+                    });
+                } else {
+                    canPlay = false;
+                }
+
+                if (!canPlay || video.muted) {
+                    detectUserAction();
+                } else if(clickComponent) {
+                    setComponentVisibility(false);
+                }
+            }
+        }
+
+        function isOVRWeb(){
+            return window.location.hash.substring(1).split('&').indexOf('ovrweb') > -1;
+        }
+
+        function getParams(params) {
+            var queryDict = {}; params.split("&").forEach(function(item) {var k = item.split("=")[0], v = decodeURIComponent(item.split("=")[1]);queryDict[k.toLowerCase()] = v});
+            return queryDict;
+        }
+
+        document.addEventListener('DOMContentLoaded', onLoad);
+    </script>
+    <style type="text/css">
+        html, body { height:100%; width:100%; height:100vh; width:100vw; margin:0; padding:0; overflow:hidden; }
+        .fill-viewport { position:fixed; top:0; left:0; right:0; bottom:0; padding:0; margin:0; overflow: hidden; }
+        .fill-viewport.landscape-left { left: env(safe-area-inset-left); }
+		.fill-viewport.landscape-right { right: env(safe-area-inset-right); }
+        #viewer { z-index:1; }
+        #preloadContainer { z-index:2; opacity:0; background-color:rgba(0,0,0,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-207533879-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-207533879-1');
+</script>
+    <style type="text/css">
+        div#countdown {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: black;
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div#countdown-container {
+            width: 100%;
+            max-width: 300px;
+        }
+        div#countdown-timer {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            display: none;
+        }
+        div#countdown-timer > div {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-width: 25%;
+        }
+        div#countdown-timer > div > div {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+        }
+        div#countdown-timer > div > small {
+            text-transform: uppercase;
+            font-size: 10px;
+            opacity: 0.6;
+        }
+        .countdown-logo {
+            max-width: 240px;
+            /* transform: translateX(-8px); */
+        }
+        div#countdown-enter {
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        div#countdown-enter button {
+            background: rgba(255,255,255,0.6);
+            padding: 1rem 3rem;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            border-radius: 2rem;
+            width: 70%;
+            cursor: pointer;
+        }
+        div#countdown-enter button:hover{
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="preloadContainer" class="fill-viewport relative">
+        <div style="
+            z-index: 4; 
+            position: absolute; 
+            background-size: 180px; 
+            background-image: url('./logo-toyota.png'); 
+            background-repeat: no-repeat; 
+            background-position: center center; 
+            overflow: hidden; 
+            left: calc(50vw-90px); 
+            bottom: 31.49%; 
+            width: 180px; 
+            height: 42.07%" >
+        </div>
+        <div style="z-index: 5; position: absolute; left: 0%; top: 76.09%; width: 100.00%; height: 10.00%" >
+            <div style="text-align:left; color:#000; ">
+                <DIV STYLE="text-align:center;font-size:1.6666666666666663vmin;">
+                    <SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;word-break:break-word;font-family:Arial, Helvetica, sans-serif;">
+                        Loading virtual experience. Please wait...
+                    </SPAN>
+                </DIV>
+            </div>
+        </div>
+    </div> -->
+    <div id="viewer" class="fill-viewport"></div>
+    <div id="countdown">
+        <div id="countdown-container">
+            <figure>
+                <img class="countdown-logo" src="./logo-toyota.png" alt="Toyota" style="margin: auto; display: block; width: 180px;">
+            </figure>
+            <div id="countdown-timer">
+                <div>
+                    <div id="days">-</div>
+                    <small>Day</small>
+                </div>
+                <div>
+                    <div id="hours">-</div>
+                    <small>Hours</small>
+                </div>
+                <div>
+                    <div id="minutes">-</div>
+                    <small>Minutes</small>
+                </div>
+                <div>
+                    <div id="seconds">-</div>
+                    <small>Seconds</small>
+                </div>
+            </div>
+            <div id="countdown-enter">
+                <button id="btn-enter" onclick="enterShowroom()">Enter</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("February 17, 2022 15:30:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("days").innerHTML = days.toLocaleString('en-US', {
+            minimumIntegerDigits: 2,
+            useGrouping: false
+        });
+        document.getElementById("hours").innerHTML = hours.toLocaleString('en-US', {
+            minimumIntegerDigits: 2,
+            useGrouping: false
+        });
+        document.getElementById("minutes").innerHTML = minutes.toLocaleString('en-US', {
+            minimumIntegerDigits: 2,
+            useGrouping: false
+        });
+        document.getElementById("seconds").innerHTML = seconds.toLocaleString('en-US', {
+            minimumIntegerDigits: 2,
+            useGrouping: false
+        });
+
+        // If the count down is finished, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown-timer").style.display = 'none';
+            if (localStorage.getItem('firstLoading') === null) {
+                document.getElementById("countdown-enter").style.display = 'flex';
+            } else if(localStorage.getItem('firstLoading') === true) {
+                document.getElementById("countdown").style.display = 'flex';
+            } else {
+                document.getElementById("countdown").style.display = 'none';
+            }
+        } else {
+            document.getElementById("countdown-timer").style.display = 'flex';
+        }
+        }, 1000);
+
+        function enterShowroom(){
+            localStorage.setItem('firstLoading', false);
+            document.getElementById("btn-enter").innerHTML = 'Please Wait...';
+            setInterval(() => {
+                window.location.reload();
+            }, 1000)
+        }
+    </script>
+</body>
+</html>
