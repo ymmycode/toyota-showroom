@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/08_Camry_extr_01.jpg?t=1673249289" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="headlamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/08_Camry_extr_ftrs_02.png?t=1673249289" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rearlamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/08_Camry_extr_ftrs_03.png?t=1673249289" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo url="https://toyotavshowroom.com/info/camry/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="front bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/08_Camry_extr_ftrs_01.png?t=1673249289" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/08_Camry_extr_ftrs_04.png?t=1673249289" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/08_Camry_extr_01.jpg?t=1673249289">
+      <hotspot source="headlamp" offsetX="675" offsetY="309" />
+      <hotspot source="front bumper" offsetX="535" offsetY="419" />
+      <highres src="images/highres/08_Camry_extr_01.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_02.jpg?t=1673249289">
+      <hotspot source="headlamp" offsetX="482" offsetY="312" />
+      <hotspot source="enter" offsetX="704" offsetY="275" />
+      <hotspot source="front bumper" offsetX="322" offsetY="416" />
+      <hotspot source="wheel" offsetX="775" offsetY="369" />
+      <highres src="images/highres/08_Camry_extr_02.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_03.jpg?t=1673249289">
+      <hotspot source="headlamp" offsetX="307" offsetY="308" />
+      <hotspot source="enter" offsetX="675" offsetY="275" />
+      <hotspot source="front bumper" offsetX="164" offsetY="414" />
+      <hotspot source="wheel" offsetX="830" offsetY="373" />
+      <highres src="images/highres/08_Camry_extr_03.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_05.jpg?t=1673249289">
+      <hotspot source="headlamp" offsetX="94" offsetY="298" />
+      <hotspot source="enter" offsetX="566" offsetY="277" />
+      <hotspot source="front bumper" offsetX="63" offsetY="377" />
+      <hotspot source="wheel" offsetX="843" offsetY="387" />
+      <highres src="images/highres/08_Camry_extr_05.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_07.jpg?t=1673249289">
+      <hotspot source="rearlamp" offsetX="898" offsetY="259" />
+      <hotspot source="enter" offsetX="438" offsetY="278" />
+      <hotspot source="wheel" offsetX="697" offsetY="399" />
+      <highres src="images/highres/08_Camry_extr_07.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_09.jpg?t=1673249289">
+      <hotspot source="rearlamp" offsetX="552" offsetY="262" />
+      <hotspot source="enter" offsetX="358" offsetY="275" />
+      <hotspot source="wheel" offsetX="444" offsetY="404" />
+      <highres src="images/highres/08_Camry_extr_09.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_10.jpg?t=1673249289">
+      <hotspot source="rearlamp" offsetX="360" offsetY="260" />
+      <highres src="images/highres/08_Camry_extr_10.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_11.jpg?t=1673249289">
+      <hotspot source="rearlamp" offsetX="514" offsetY="260" />
+      <hotspot source="enter" offsetX="708" offsetY="274" />
+      <hotspot source="wheel" offsetX="621" offsetY="402" />
+      <highres src="images/highres/08_Camry_extr_11.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_13.jpg?t=1673249289">
+      <hotspot source="rearlamp" offsetX="163" offsetY="263" />
+      <hotspot source="enter" offsetX="629" offsetY="279" />
+      <hotspot source="wheel" offsetX="373" offsetY="401" />
+      <highres src="images/highres/08_Camry_extr_13.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_15.jpg?t=1673249289">
+      <hotspot source="headlamp" offsetX="946" offsetY="295" />
+      <hotspot source="enter" offsetX="497" offsetY="278" />
+      <hotspot source="front bumper" offsetX="1016" offsetY="381" />
+      <hotspot source="wheel" offsetX="227" offsetY="387" />
+      <highres src="images/highres/08_Camry_extr_15.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_17.jpg?t=1673249289">
+      <hotspot source="headlamp" offsetX="761" offsetY="310" />
+      <hotspot source="enter" offsetX="391" offsetY="277" />
+      <hotspot source="front bumper" offsetX="902" offsetY="404" />
+      <hotspot source="wheel" offsetX="239" offsetY="374" />
+      <highres src="images/highres/08_Camry_extr_17.jpg?t=1673249289" />
+    </image>
+    <image src="images/08_Camry_extr_18.jpg?t=1673249289">
+      <hotspot source="headlamp" offsetX="580" offsetY="309" />
+      <hotspot source="enter" offsetX="364" offsetY="274" />
+      <hotspot source="front bumper" offsetX="743" offsetY="417" />
+      <hotspot source="wheel" offsetX="293" offsetY="372" />
+      <highres src="images/highres/08_Camry_extr_18.jpg?t=1673249289" />
+    </image>
+  </images>
+</config>

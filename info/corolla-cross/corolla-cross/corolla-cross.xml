@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/06_Corolla_ext_01.jpg" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="front" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" effects="scaleUp,2000">
+      <spotinfo src="images/spots/06_Corolla_ext_ftrs_04.jpg" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/06_Corolla_ext_ftrs_03.jpg" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="roof" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/06_Corolla_ext_ftrs_02.jpg" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="headlamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/06_Corolla_ext_ftrs_05.jpg" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="backdoor" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/06_Corolla_ext_ftrs_01.jpg" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="foglamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/06_Corolla_ext_ftrs_06.jpg" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp">
+      <spotinfo url="https://toyotavshowroom.com/info/corolla-cross/int" urlTarget="_self" />
+    </hotspot>
+  </hotspots>
+  <images rows="1">
+    <image src="images/06_Corolla_ext_01.jpg">
+      <hotspot source="front" offsetX="804.785" offsetY="692.6355" />
+      <hotspot source="roof" offsetX="960.8972" offsetY="256.5981" />
+      <hotspot source="headlamp" offsetX="1248" offsetY="525.757" />
+      <hotspot source="foglamp" offsetX="1178.019" offsetY="773.3832" />
+    </image>
+    <image src="images/06_Corolla_ext_03.jpg">
+      <hotspot source="wheel" offsetX="905.271" offsetY="757.2336" />
+      <hotspot source="roof" offsetX="980.6355" offsetY="260.1869" />
+      <hotspot source="headlamp" offsetX="706.0934" offsetY="523.9626" />
+      <hotspot source="foglamp" offsetX="553.5701" offsetY="769.7944" />
+      <hotspot source="enter" offsetX="1240.822" offsetY="477.3084" />
+    </image>
+    <image src="images/06_Corolla_ext_04.jpg">
+      <hotspot source="wheel" offsetX="697.1215" offsetY="755.4392" />
+      <hotspot source="roof" offsetX="987.813" offsetY="258.3925" />
+      <hotspot source="headlamp" offsetX="458.4673" offsetY="522.1682" />
+      <hotspot source="foglamp" offsetX="314.9159" offsetY="755.4392" />
+      <hotspot source="enter" offsetX="1167.252" offsetY="479.1028" />
+    </image>
+    <image src="images/06_Corolla_ext_06.jpg">
+      <hotspot source="wheel" offsetX="422.5794" offsetY="737.4953" />
+      <hotspot source="headlamp" offsetX="223.4019" offsetY="513.1962" />
+      <hotspot source="enter" offsetX="941.1589" offsetY="480.8972" />
+    </image>
+    <image src="images/06_Corolla_ext_08.jpg">
+      <hotspot source="wheel" offsetX="426.1682" offsetY="712.3738" />
+      <hotspot source="backdoor" offsetX="1431.028" offsetY="572.4112" />
+      <hotspot source="enter" offsetX="729.4205" offsetY="480.8972" />
+    </image>
+    <image src="images/06_Corolla_ext_09.jpg">
+      <hotspot source="backdoor" offsetX="1136.748" offsetY="574.2056" />
+      <hotspot source="enter" offsetX="659.4392" offsetY="477.3084" />
+    </image>
+    <image src="images/06_Corolla_ext_10.jpg">
+      <hotspot source="backdoor" offsetX="758.1308" offsetY="583.1776" />
+    </image>
+    <image src="images/06_Corolla_ext_12.jpg">
+      <hotspot source="wheel" offsetX="1492.037" offsetY="708.785" />
+      <hotspot source="backdoor" offsetX="268.2617" offsetY="565.2336" />
+      <hotspot source="enter" offsetX="1190.579" offsetY="480.8972" />
+    </image>
+    <image src="images/06_Corolla_ext_13.jpg">
+      <hotspot source="wheel" offsetX="1529.72" offsetY="724.9346" />
+      <hotspot source="backdoor" offsetX="164.1869" offsetY="559.8505" />
+      <hotspot source="enter" offsetX="1091.888" offsetY="480.8972" />
+    </image>
+    <image src="images/06_Corolla_ext_14.jpg">
+      <hotspot source="wheel" offsetX="1497.421" offsetY="739.2897" />
+      <hotspot source="headlamp" offsetX="1675.065" offsetY="509.6075" />
+      <hotspot source="enter" offsetX="973.4579" offsetY="482.6916" />
+    </image>
+    <image src="images/06_Corolla_ext_16.jpg">
+      <hotspot source="wheel" offsetX="1222.878" offsetY="757.2336" />
+      <hotspot source="roof" offsetX="930.3925" offsetY="260.1869" />
+      <hotspot source="headlamp" offsetX="1468.71" offsetY="525.757" />
+      <hotspot source="foglamp" offsetX="1606.878" offsetY="759.028" />
+      <hotspot source="enter" offsetX="749.1589" offsetY="480.8972" />
+    </image>
+    <image src="images/06_Corolla_ext_17.jpg">
+      <hotspot source="wheel" offsetX="1018.318" offsetY="757.2336" />
+      <hotspot source="roof" offsetX="932.1869" offsetY="258.3925" />
+      <hotspot source="headlamp" offsetX="1244.411" offsetY="527.5514" />
+      <hotspot source="foglamp" offsetX="1368.224" offsetY="769.7944" />
+      <hotspot source="enter" offsetX="673.7944" offsetY="479.1028" />
+    </image>
+  </images>
+</config>

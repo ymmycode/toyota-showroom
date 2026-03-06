@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/01_Altis_ext_01.jpg?t=1631692049" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="false" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot1" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/07_Altis_ext_ftrs_01.jpg?t=1631692049" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot2" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/07_Altis_ext_ftrs_02.jpg?t=1631692049" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot3" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/07_Altis_ext_ftrs_03.jpg?t=1631692049" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot4" renderMode="1" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/07_Altis_ext_ftrs_04.jpg?t=1631692049" imgWidth="320" />
+    </hotspot>
+    <hotspot id="spot5" renderMode="0" indicatorImage="Out Small.png" activateOnClick="true" effects="scaleUp">
+      <spotinfo url="https://toyotavshowroom.com/info/corolla-altis/int/" urlTarget="_self" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/01_Altis_ext_01.jpg?t=1631692049">
+      <hotspot source="spot1" offsetX="600" offsetY="413" />
+      <highres src="images/highres/01_Altis_ext_01.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_03.jpg?t=1631692049">
+      <hotspot source="spot1" offsetX="428" offsetY="410" />
+      <hotspot source="spot3" offsetX="614" offsetY="404" />
+      <hotspot source="spot5" offsetX="707" offsetY="278" />
+      <highres src="images/highres/01_Altis_ext_03.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_07.jpg?t=1631692049">
+      <hotspot source="spot1" offsetX="158" offsetY="401" />
+      <hotspot source="spot3" offsetX="380" offsetY="398" />
+      <hotspot source="spot5" offsetX="641" offsetY="281" />
+      <highres src="images/highres/01_Altis_ext_07.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_10.jpg?t=1631692049">
+      <hotspot source="spot3" offsetX="265" offsetY="389" />
+      <hotspot source="spot4" offsetX="969" offsetY="290" />
+      <hotspot source="spot5" offsetX="556" offsetY="279" />
+      <highres src="images/highres/01_Altis_ext_10.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_15.jpg?t=1631692049">
+      <hotspot source="spot2" offsetX="788" offsetY="346" />
+      <hotspot source="spot3" offsetX="268" offsetY="377" />
+      <hotspot source="spot4" offsetX="698" offsetY="301" />
+      <hotspot source="spot5" offsetX="420" offsetY="278" />
+      <highres src="images/highres/01_Altis_ext_15.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_17.jpg?t=1631692049">
+      <hotspot source="spot2" offsetX="607" offsetY="353" />
+      <hotspot source="spot3" offsetX="324" offsetY="369" />
+      <hotspot source="spot4" offsetX="829" offsetY="298" />
+      <hotspot source="spot5" offsetX="389" offsetY="279" />
+      <highres src="images/highres/01_Altis_ext_17.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_19.jpg?t=1631692049">
+      <hotspot source="spot2" offsetX="434" offsetY="346" />
+      <hotspot source="spot4" offsetX="688" offsetY="299" />
+      <highres src="images/highres/01_Altis_ext_19.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_21.jpg?t=1631692049">
+      <hotspot source="spot2" offsetX="268" offsetY="345" />
+      <hotspot source="spot3" offsetX="752" offsetY="372" />
+      <hotspot source="spot4" offsetX="513" offsetY="298" />
+      <hotspot source="spot5" offsetX="690" offsetY="281" />
+      <highres src="images/highres/01_Altis_ext_21.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_23.jpg?t=1631692049">
+      <hotspot source="spot2" offsetX="155" offsetY="344" />
+      <hotspot source="spot3" offsetX="808" offsetY="373" />
+      <hotspot source="spot4" offsetX="362" offsetY="302" />
+      <hotspot source="spot5" offsetX="667" offsetY="285" />
+      <highres src="images/highres/01_Altis_ext_23.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_28.jpg?t=1631692049">
+      <hotspot source="spot3" offsetX="805" offsetY="386" />
+      <hotspot source="spot4" offsetX="107" offsetY="288" />
+      <hotspot source="spot5" offsetX="533" offsetY="283" />
+      <highres src="images/highres/01_Altis_ext_28.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_33.jpg?t=1631692049">
+      <hotspot source="spot1" offsetX="894" offsetY="400" />
+      <hotspot source="spot3" offsetX="580" offsetY="406" />
+      <hotspot source="spot5" offsetX="406" offsetY="284" />
+      <highres src="images/highres/01_Altis_ext_33.jpg?t=1631692049" />
+    </image>
+    <image src="images/01_Altis_ext_35.jpg?t=1631692049">
+      <hotspot source="spot1" offsetX="764" offsetY="404" />
+      <hotspot source="spot3" offsetX="457" offsetY="398" />
+      <hotspot source="spot5" offsetX="379" offsetY="282" />
+      <highres src="images/highres/01_Altis_ext_35.jpg?t=1631692049" />
+    </image>
+  </images>
+</config>

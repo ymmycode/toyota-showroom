@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/CMPV_Inova Zenix_0000_1.jpg?t=1670916297" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="front-bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/23_CMPV_ext_ftrs-04.png?t=1670916297" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="crossover_front" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/23_CMPV_ext_ftrs-01.png?t=1670916297" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="backdoor" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/23_CMPV_ext_ftrs-02.jpg?t=1670916297" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/23_CMPV_ext_ftrs-07.jpg?t=1670916297" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="grill" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/23_CMPV_ext_ftrs-03.png?t=1670916297" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/cmpv-innova-zenix/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="rear-bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/23_CMPV_ext_ftrs-06.png?t=1670916297" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="sideskirt" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/23_CMPV_ext_ftrs-05.jpg?t=1670916297" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/CMPV_Inova Zenix_0000_1.jpg?t=1670916297">
+      <hotspot source="front-bumper" offsetX="449" offsetY="377" />
+      <hotspot source="crossover_front" offsetX="478" offsetY="257" />
+      <hotspot source="grill" offsetX="534" offsetY="326" />
+      <highres src="images/highres/CMPV_Inova Zenix_0000_1.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0002_3.jpg?t=1670916297">
+      <hotspot source="front-bumper" offsetX="187" offsetY="364" />
+      <hotspot source="crossover_front" offsetX="224" offsetY="255" />
+      <hotspot source="wheel" offsetX="545" offsetY="414" />
+      <hotspot source="grill" offsetX="255" offsetY="320" />
+      <hotspot source="enter" offsetX="693" offsetY="242" />
+      <hotspot source="sideskirt" offsetX="701" offsetY="393" />
+      <highres src="images/highres/CMPV_Inova Zenix_0002_3.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0004_5.jpg?t=1670916297">
+      <hotspot source="front-bumper" offsetX="124" offsetY="367" />
+      <hotspot source="crossover_front" offsetX="121" offsetY="254" />
+      <hotspot source="wheel" offsetX="353" offsetY="411" />
+      <hotspot source="grill" offsetX="86" offsetY="312" />
+      <hotspot source="enter" offsetX="620" offsetY="241" />
+      <hotspot source="sideskirt" offsetX="648" offsetY="399" />
+      <highres src="images/highres/CMPV_Inova Zenix_0004_5.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0006_7.jpg?t=1670916297">
+      <hotspot source="wheel" offsetX="230" offsetY="402" />
+      <hotspot source="enter" offsetX="520" offsetY="241" />
+      <hotspot source="sideskirt" offsetX="559" offsetY="403" />
+      <highres src="images/highres/CMPV_Inova Zenix_0006_7.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0008_9.jpg?t=1670916297">
+      <hotspot source="backdoor" offsetX="966" offsetY="226" />
+      <hotspot source="wheel" offsetX="199" offsetY="389" />
+      <hotspot source="enter" offsetX="428" offsetY="242" />
+      <hotspot source="rear-bumper" offsetX="985" offsetY="351" />
+      <hotspot source="sideskirt" offsetX="466" offsetY="403" />
+      <highres src="images/highres/CMPV_Inova Zenix_0008_9.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0010_11.jpg?t=1670916297">
+      <hotspot source="backdoor" offsetX="849" offsetY="226" />
+      <hotspot source="wheel" offsetX="251" offsetY="381" />
+      <hotspot source="enter" offsetX="366" offsetY="243" />
+      <hotspot source="rear-bumper" offsetX="815" offsetY="360" />
+      <hotspot source="sideskirt" offsetX="393" offsetY="398" />
+      <highres src="images/highres/CMPV_Inova Zenix_0010_11.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0012_13.jpg?t=1670916297">
+      <hotspot source="backdoor" offsetX="580" offsetY="228" />
+      <hotspot source="rear-bumper" offsetX="536" offsetY="366" />
+      <highres src="images/highres/CMPV_Inova Zenix_0012_13.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0014_15.jpg?t=1670916297">
+      <hotspot source="backdoor" offsetX="289" offsetY="227" />
+      <hotspot source="wheel" offsetX="816" offsetY="379" />
+      <hotspot source="enter" offsetX="701" offsetY="243" />
+      <hotspot source="rear-bumper" offsetX="250" offsetY="362" />
+      <hotspot source="sideskirt" offsetX="679" offsetY="395" />
+      <highres src="images/highres/CMPV_Inova Zenix_0014_15.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0016_17.jpg?t=1670916297">
+      <hotspot source="backdoor" offsetX="100" offsetY="226" />
+      <hotspot source="wheel" offsetX="872" offsetY="388" />
+      <hotspot source="enter" offsetX="637" offsetY="241" />
+      <hotspot source="rear-bumper" offsetX="81" offsetY="349" />
+      <hotspot source="sideskirt" offsetX="606" offsetY="401" />
+      <highres src="images/highres/CMPV_Inova Zenix_0016_17.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0018_20.jpg?t=1670916297">
+      <hotspot source="wheel" offsetX="841" offsetY="401" />
+      <hotspot source="enter" offsetX="544" offsetY="242" />
+      <hotspot source="sideskirt" offsetX="510" offsetY="403" />
+      <highres src="images/highres/CMPV_Inova Zenix_0018_20.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0020_22.jpg?t=1670916297">
+      <hotspot source="front-bumper" offsetX="942" offsetY="357" />
+      <hotspot source="crossover_front" offsetX="952" offsetY="253" />
+      <hotspot source="wheel" offsetX="714" offsetY="408" />
+      <hotspot source="grill" offsetX="981" offsetY="310" />
+      <hotspot source="enter" offsetX="449" offsetY="244" />
+      <hotspot source="sideskirt" offsetX="425" offsetY="398" />
+      <highres src="images/highres/CMPV_Inova Zenix_0020_22.jpg?t=1670916297" />
+    </image>
+    <image src="images/CMPV_Inova Zenix_0022_24.jpg?t=1670916297">
+      <hotspot source="front-bumper" offsetX="731" offsetY="368" />
+      <hotspot source="crossover_front" offsetX="765" offsetY="256" />
+      <hotspot source="wheel" offsetX="525" offsetY="415" />
+      <hotspot source="grill" offsetX="813" offsetY="320" />
+      <hotspot source="enter" offsetX="360" offsetY="274" />
+      <hotspot source="sideskirt" offsetX="368" offsetY="393" />
+      <highres src="images/highres/CMPV_Inova Zenix_0022_24.jpg?t=1670916297" />
+    </image>
+  </images>
+</config>

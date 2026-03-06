@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/05_C-hr_ext_01.jpg?t=1673493818" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="head_lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/05_C-hr_ext_ftrs_01.jpg?t=1673493818" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rear_lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/05_C-hr_ext_ftrs_2.jpg?t=1673493818" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel1" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/05_C-hr_ext_ftrs_03-01.jpg?t=1673493818" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="windshield" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/05_C-hr_ext_ftrs_03-02.jpg?t=1673493818" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp">
+      <spotinfo url="https://toyotavshowroom.com/info/c-hr/int" urlTarget="_self" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/05_C-hr_ext_01.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="373" offsetY="272" />
+      <hotspot source="windshield" offsetX="521" offsetY="225" />
+      <highres src="images/highres/05_C-hr_ext_01.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_03.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="424" offsetY="273" />
+      <hotspot source="wheel1" offsetX="567" offsetY="421" />
+      <hotspot source="windshield" offsetX="395" offsetY="225" />
+      <hotspot source="enter" offsetX="726" offsetY="250" />
+      <highres src="images/highres/05_C-hr_ext_03.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_05.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="209" offsetY="269" />
+      <hotspot source="rear_lamp" offsetX="949" offsetY="206" />
+      <hotspot source="wheel1" offsetX="371" offsetY="416" />
+      <hotspot source="windshield" offsetX="313" offsetY="224" />
+      <hotspot source="enter" offsetX="669" offsetY="250" />
+      <highres src="images/highres/05_C-hr_ext_05.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_09.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="120" offsetY="261" />
+      <hotspot source="rear_lamp" offsetX="983" offsetY="207" />
+      <hotspot source="wheel1" offsetX="236" offsetY="404" />
+      <hotspot source="windshield" offsetX="296" offsetY="221" />
+      <hotspot source="enter" offsetX="570" offsetY="251" />
+      <highres src="images/highres/05_C-hr_ext_09.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_15.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="134" offsetY="254" />
+      <hotspot source="rear_lamp" offsetX="880" offsetY="210" />
+      <hotspot source="wheel1" offsetX="197" offsetY="390" />
+      <hotspot source="enter" offsetX="465" offsetY="251" />
+      <highres src="images/highres/05_C-hr_ext_15.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_17.jpg?t=1673493818">
+      <hotspot source="rear_lamp" offsetX="650" offsetY="212" />
+      <hotspot source="wheel1" offsetX="249" offsetY="380" />
+      <hotspot source="enter" offsetX="377" offsetY="257" />
+      <highres src="images/highres/05_C-hr_ext_17.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_19.jpg?t=1673493818">
+      <hotspot source="rear_lamp" offsetX="692" offsetY="211" />
+      <highres src="images/highres/05_C-hr_ext_19.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_21.jpg?t=1673493818">
+      <hotspot source="rear_lamp" offsetX="416" offsetY="212" />
+      <hotspot source="wheel1" offsetX="820" offsetY="375" />
+      <hotspot source="enter" offsetX="691" offsetY="249" />
+      <highres src="images/highres/05_C-hr_ext_21.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_23.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="931" offsetY="253" />
+      <hotspot source="rear_lamp" offsetX="198" offsetY="210" />
+      <hotspot source="wheel1" offsetX="869" offsetY="392" />
+      <hotspot source="enter" offsetX="605" offsetY="250" />
+      <highres src="images/highres/05_C-hr_ext_23.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_29.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="941" offsetY="259" />
+      <hotspot source="rear_lamp" offsetX="87" offsetY="206" />
+      <hotspot source="wheel1" offsetX="832" offsetY="405" />
+      <hotspot source="windshield" offsetX="773" offsetY="219" />
+      <hotspot source="enter" offsetX="498" offsetY="251" />
+      <highres src="images/highres/05_C-hr_ext_29.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_33.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="849" offsetY="266" />
+      <hotspot source="rear_lamp" offsetX="110" offsetY="208" />
+      <hotspot source="wheel1" offsetX="698" offsetY="418" />
+      <hotspot source="windshield" offsetX="744" offsetY="222" />
+      <hotspot source="enter" offsetX="401" offsetY="249" />
+      <highres src="images/highres/05_C-hr_ext_33.jpg?t=1673493818" />
+    </image>
+    <image src="images/05_C-hr_ext_35.jpg?t=1673493818">
+      <hotspot source="head_lamp" offsetX="639" offsetY="274" />
+      <hotspot source="wheel1" offsetX="502" offsetY="421" />
+      <hotspot source="windshield" offsetX="651" offsetY="224" />
+      <hotspot source="enter" offsetX="344" offsetY="248" />
+      <highres src="images/highres/05_C-hr_ext_35.jpg?t=1673493818" />
+    </image>
+  </images>
+</config>

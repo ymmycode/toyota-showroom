@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/21_VIOS_extr__1.jpg?t=1669912650" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="front_bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/21_Vios_ext_ftrs_07.png?t=1669912650" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="window" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/21_Vios_ext_ftrs_06.png?t=1669912650" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="bonet" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/21_Vios_ext_ftrs_05.png?t=1669912650" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/21_Vios_ext_ftrs-04.jpg?t=1669912650" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="backlight" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/21_Vios_ext_ftrs-03.jpg?t=1669912650" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="headlamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/21_Vios_ext_ftrs-02.jpg?t=1669912650" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="side" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/21_Vios_ext_ftrs-01.jpg?t=1669912650" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/all-new-vios/int" urlTarget="_self" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/21_VIOS_extr__1.jpg?t=1669912650">
+      <hotspot source="front_bumper" offsetX="522" offsetY="436" />
+      <hotspot source="bonet" offsetX="525" offsetY="319" />
+      <hotspot source="headlamp" offsetX="699" offsetY="324" />
+      <highres src="images/highres/21_VIOS_extr__1.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__3.jpg?t=1669912650">
+      <hotspot source="front_bumper" offsetX="300" offsetY="431" />
+      <hotspot source="window" offsetX="715" offsetY="183" />
+      <hotspot source="bonet" offsetX="309" offsetY="314" />
+      <hotspot source="wheel" offsetX="899" offsetY="389" />
+      <hotspot source="headlamp" offsetX="502" offsetY="322" />
+      <hotspot source="side" offsetX="748" offsetY="148" />
+      <hotspot source="enter" offsetX="768" offsetY="275" />
+      <highres src="images/highres/21_VIOS_extr__3.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__5.jpg?t=1669912650">
+      <hotspot source="front_bumper" offsetX="80" offsetY="412" />
+      <hotspot source="window" offsetX="609" offsetY="184" />
+      <hotspot source="bonet" offsetX="93" offsetY="307" />
+      <hotspot source="wheel" offsetX="911" offsetY="404" />
+      <hotspot source="backlight" offsetX="1033" offsetY="260" />
+      <hotspot source="headlamp" offsetX="219" offsetY="320" />
+      <hotspot source="side" offsetX="678" offsetY="147" />
+      <hotspot source="enter" offsetX="652" offsetY="276" />
+      <highres src="images/highres/21_VIOS_extr__5.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__7.jpg?t=1669912650">
+      <hotspot source="window" offsetX="500" offsetY="184" />
+      <hotspot source="wheel" offsetX="840" offsetY="415" />
+      <hotspot source="backlight" offsetX="1032" offsetY="262" />
+      <hotspot source="side" offsetX="591" offsetY="146" />
+      <hotspot source="enter" offsetX="522" offsetY="277" />
+      <highres src="images/highres/21_VIOS_extr__7.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__9.jpg?t=1669912650">
+      <hotspot source="window" offsetX="388" offsetY="180" />
+      <hotspot source="wheel" offsetX="658" offsetY="425" />
+      <hotspot source="backlight" offsetX="879" offsetY="268" />
+      <hotspot source="side" offsetX="465" offsetY="147" />
+      <hotspot source="enter" offsetX="376" offsetY="275" />
+      <highres src="images/highres/21_VIOS_extr__9.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__011.jpg?t=1669912650">
+      <hotspot source="window" offsetX="301" offsetY="184" />
+      <hotspot source="backlight" offsetX="592" offsetY="271" />
+      <hotspot source="side" offsetX="354" offsetY="148" />
+      <hotspot source="enter" offsetX="270" offsetY="272" />
+      <highres src="images/highres/21_VIOS_extr__011.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__013.jpg?t=1669912650">
+      <hotspot source="backlight" offsetX="372" offsetY="269" />
+      <highres src="images/highres/21_VIOS_extr__013.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__015.jpg?t=1669912650">
+      <hotspot source="window" offsetX="677" offsetY="184" />
+      <hotspot source="wheel" offsetX="554" offsetY="428" />
+      <hotspot source="backlight" offsetX="386" offsetY="271" />
+      <hotspot source="side" offsetX="622" offsetY="146" />
+      <hotspot source="enter" offsetX="706" offsetY="272" />
+      <highres src="images/highres/21_VIOS_extr__015.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__017.jpg?t=1669912650">
+      <hotspot source="window" offsetX="632" offsetY="183" />
+      <hotspot source="wheel" offsetX="358" offsetY="426" />
+      <hotspot source="backlight" offsetX="136" offsetY="266" />
+      <hotspot source="side" offsetX="549" offsetY="147" />
+      <hotspot source="enter" offsetX="638" offsetY="275" />
+      <highres src="images/highres/21_VIOS_extr__017.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__019.jpg?t=1669912650">
+      <hotspot source="window" offsetX="557" offsetY="183" />
+      <hotspot source="wheel" offsetX="220" offsetY="415" />
+      <hotspot source="backlight" offsetX="30" offsetY="262" />
+      <hotspot source="headlamp" offsetX="1008" offsetY="311" />
+      <hotspot source="side" offsetX="471" offsetY="147" />
+      <hotspot source="enter" offsetX="542" offsetY="277" />
+      <highres src="images/highres/21_VIOS_extr__019.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__021.jpg?t=1669912650">
+      <hotspot source="front_bumper" offsetX="1002" offsetY="414" />
+      <hotspot source="window" offsetX="469" offsetY="175" />
+      <hotspot source="bonet" offsetX="997" offsetY="307" />
+      <hotspot source="wheel" offsetX="181" offsetY="402" />
+      <hotspot source="headlamp" offsetX="885" offsetY="324" />
+      <hotspot source="side" offsetX="409" offsetY="148" />
+      <hotspot source="enter" offsetX="436" offsetY="277" />
+      <highres src="images/highres/21_VIOS_extr__021.jpg?t=1669912650" />
+    </image>
+    <image src="images/21_VIOS_extr__023.jpg?t=1669912650">
+      <hotspot source="front_bumper" offsetX="821" offsetY="429" />
+      <hotspot source="window" offsetX="405" offsetY="174" />
+      <hotspot source="bonet" offsetX="821" offsetY="314" />
+      <hotspot source="wheel" offsetX="230" offsetY="390" />
+      <hotspot source="headlamp" offsetX="638" offsetY="326" />
+      <hotspot source="side" offsetX="381" offsetY="148" />
+      <hotspot source="enter" offsetX="360" offsetY="274" />
+      <highres src="images/highres/21_VIOS_extr__023.jpg?t=1669912650" />
+    </image>
+  </images>
+</config>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/19_Avanza_ext_01.jpg?t=1662131259" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="front_bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/18_Avanza_ext_ftrs-01.jpg?t=1662131259" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/18_Avanza_ext_ftrs-04.jpg?t=1662131259" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="outer_mirror" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/18_Avanza_ext_ftrs-03.jpg?t=1662131259" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rear_lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/18_Avanza_ext_ftrs-02.jpg?t=1662131259" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/18_Avanza_ext_ftrs-06.jpg?t=1662131259" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo url="https://toyotavshowroom.com/info/avanza/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="rear_lamp2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/18_Avanza_ext_ftrs-05.jpg?t=1662131259" imgWidth="321" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/19_Avanza_ext_01.jpg?t=1662131259">
+      <hotspot source="front_bumper" offsetX="534" offsetY="436" />
+      <hotspot source="outer_mirror" offsetX="752" offsetY="215" />
+      <highres src="images/highres/19_Avanza_ext_01.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_03.jpg?t=1662131259">
+      <hotspot source="front_bumper" offsetX="294" offsetY="433" />
+      <hotspot source="wheel" offsetX="572" offsetY="428" />
+      <hotspot source="outer_mirror" offsetX="680" offsetY="221" />
+      <hotspot source="wheel2" offsetX="553" offsetY="388" />
+      <hotspot source="enter" offsetX="665" offsetY="274" />
+      <highres src="images/highres/19_Avanza_ext_03.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_05.jpg?t=1662131259">
+      <hotspot source="front_bumper" offsetX="115" offsetY="421" />
+      <hotspot source="wheel" offsetX="361" offsetY="423" />
+      <hotspot source="outer_mirror" offsetX="512" offsetY="224" />
+      <hotspot source="wheel2" offsetX="327" offsetY="381" />
+      <hotspot source="enter" offsetX="594" offsetY="275" />
+      <highres src="images/highres/19_Avanza_ext_05.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_07.jpg?t=1662131259">
+      <hotspot source="wheel" offsetX="226" offsetY="429" />
+      <hotspot source="outer_mirror" offsetX="366" offsetY="231" />
+      <hotspot source="rear_lamp" offsetX="995" offsetY="252" />
+      <hotspot source="wheel2" offsetX="195" offsetY="379" />
+      <hotspot source="enter" offsetX="501" offsetY="275" />
+      <highres src="images/highres/19_Avanza_ext_07.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_09.jpg?t=1662131259">
+      <hotspot source="wheel" offsetX="180" offsetY="415" />
+      <hotspot source="outer_mirror" offsetX="273" offsetY="234" />
+      <hotspot source="rear_lamp" offsetX="855" offsetY="252" />
+      <hotspot source="wheel2" offsetX="158" offsetY="369" />
+      <hotspot source="enter" offsetX="419" offsetY="275" />
+      <hotspot source="rear_lamp2" offsetX="970" offsetY="252" />
+      <highres src="images/highres/19_Avanza_ext_09.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_11.jpg?t=1662131259">
+      <hotspot source="wheel" offsetX="222" offsetY="402" />
+      <hotspot source="outer_mirror" offsetX="252" offsetY="231" />
+      <hotspot source="rear_lamp" offsetX="594" offsetY="257" />
+      <hotspot source="wheel2" offsetX="213" offsetY="357" />
+      <hotspot source="enter" offsetX="371" offsetY="275" />
+      <hotspot source="rear_lamp2" offsetX="844" offsetY="254" />
+      <highres src="images/highres/19_Avanza_ext_11.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_13.jpg?t=1662131259">
+      <hotspot source="outer_mirror" offsetX="347" offsetY="227" />
+      <hotspot source="rear_lamp" offsetX="392" offsetY="260" />
+      <hotspot source="rear_lamp2" offsetX="649" offsetY="255" />
+      <highres src="images/highres/19_Avanza_ext_13.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_15.jpg?t=1662131259">
+      <hotspot source="wheel" offsetX="857" offsetY="401" />
+      <hotspot source="outer_mirror" offsetX="831" offsetY="231" />
+      <hotspot source="rear_lamp" offsetX="213" offsetY="262" />
+      <hotspot source="wheel2" offsetX="870" offsetY="361" />
+      <hotspot source="rear_lamp2" offsetX="417" offsetY="256" />
+      <highres src="images/highres/19_Avanza_ext_15.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_17.jpg?t=1662131259">
+      <hotspot source="wheel" offsetX="897" offsetY="415" />
+      <hotspot source="outer_mirror" offsetX="804" offsetY="231" />
+      <hotspot source="rear_lamp" offsetX="200" offsetY="262" />
+      <hotspot source="wheel2" offsetX="922" offsetY="371" />
+      <hotspot source="enter" offsetX="677" offsetY="274" />
+      <hotspot source="rear_lamp2" offsetX="182" offsetY="253" />
+      <highres src="images/highres/19_Avanza_ext_17.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_19.jpg?t=1662131259">
+      <hotspot source="wheel" offsetX="851" offsetY="426" />
+      <hotspot source="outer_mirror" offsetX="715" offsetY="231" />
+      <hotspot source="rear_lamp" offsetX="91" offsetY="247" />
+      <hotspot source="wheel2" offsetX="877" offsetY="376" />
+      <hotspot source="enter" offsetX="606" offsetY="277" />
+      <highres src="images/highres/19_Avanza_ext_19.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_21.jpg?t=1662131259">
+      <hotspot source="front_bumper" offsetX="954" offsetY="423" />
+      <hotspot source="wheel" offsetX="720" offsetY="426" />
+      <hotspot source="outer_mirror" offsetX="573" offsetY="224" />
+      <hotspot source="rear_lamp" offsetX="101" offsetY="234" />
+      <hotspot source="wheel2" offsetX="747" offsetY="379" />
+      <hotspot source="enter" offsetX="515" offsetY="278" />
+      <highres src="images/highres/19_Avanza_ext_21.jpg?t=1662131259" />
+    </image>
+    <image src="images/19_Avanza_ext_23.jpg?t=1662131259">
+      <hotspot source="front_bumper" offsetX="770" offsetY="439" />
+      <hotspot source="wheel" offsetX="506" offsetY="428" />
+      <hotspot source="outer_mirror" offsetX="400" offsetY="220" />
+      <hotspot source="wheel2" offsetX="521" offsetY="385" />
+      <hotspot source="enter" offsetX="429" offsetY="275" />
+      <highres src="images/highres/19_Avanza_ext_23.jpg?t=1662131259" />
+    </image>
+  </images>
+</config>

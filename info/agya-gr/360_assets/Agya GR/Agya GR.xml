@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/04_Agya_ext_01.jpg?t=1690464277" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="empty" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="upper grille" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_01.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_05.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo url="https://toyotavshowroom.com/info/agya-gr/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="front bumper spoiler" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_02.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rear bumper spoiler" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_03.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="gr side skirt" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_04.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="roof" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_06.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="roof end spoiler" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_07.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="scuff plate" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_08.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="headlamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_09.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="mirror" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_10.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="gr emblem" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_11.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rear lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_12.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="smart entry" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
+      <spotinfo src="images/spots/04_Agya_ext_ftrs_13.png?t=1690464277" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/04_Agya_ext_01.jpg?t=1690464277">
+      <hotspot source="upper grille" offsetX="448" offsetY="383" />
+      <hotspot source="front bumper spoiler" offsetX="617" offsetY="386" />
+      <hotspot source="roof" offsetX="534" offsetY="124" />
+      <hotspot source="headlamp" offsetX="365" offsetY="297" />
+      <hotspot source="mirror" offsetX="728" offsetY="206" />
+      <highres src="images/highres/04_Agya_ext_01.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_02.jpg?t=1690464277">
+      <hotspot source="upper grille" offsetX="325" offsetY="378" />
+      <hotspot source="wheel" offsetX="740" offsetY="344" />
+      <hotspot source="enter" offsetX="700" offsetY="282" />
+      <hotspot source="front bumper spoiler" offsetX="481" offsetY="389" />
+      <hotspot source="gr side skirt" offsetX="708" offsetY="353" />
+      <hotspot source="roof" offsetX="523" offsetY="126" />
+      <hotspot source="headlamp" offsetX="573" offsetY="306" />
+      <hotspot source="mirror" offsetX="692" offsetY="208" />
+      <highres src="images/highres/04_Agya_ext_02.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_03.jpg?t=1690464277">
+      <hotspot source="upper grille" offsetX="230" offsetY="372" />
+      <hotspot source="wheel" offsetX="793" offsetY="350" />
+      <hotspot source="enter" offsetX="705" offsetY="286" />
+      <hotspot source="front bumper spoiler" offsetX="353" offsetY="383" />
+      <hotspot source="gr side skirt" offsetX="686" offsetY="364" />
+      <hotspot source="roof" offsetX="536" offsetY="127" />
+      <hotspot source="headlamp" offsetX="448" offsetY="305" />
+      <hotspot source="mirror" offsetX="644" offsetY="207" />
+      <hotspot source="smart entry" offsetX="698" offsetY="247" />
+      <highres src="images/highres/04_Agya_ext_03.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_04.jpg?t=1690464277">
+      <hotspot source="wheel" offsetX="846" offsetY="387" />
+      <hotspot source="enter" offsetX="562" offsetY="293" />
+      <hotspot source="gr side skirt" offsetX="495" offsetY="376" />
+      <hotspot source="roof" offsetX="501" offsetY="132" />
+      <hotspot source="roof end spoiler" offsetX="848" offsetY="134" />
+      <hotspot source="headlamp" offsetX="156" offsetY="282" />
+      <hotspot source="mirror" offsetX="402" offsetY="213" />
+      <hotspot source="rear lamp" offsetX="927" offsetY="235" />
+      <hotspot source="smart entry" offsetX="564" offsetY="252" />
+      <highres src="images/highres/04_Agya_ext_04.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_05.jpg?t=1690464277">
+      <hotspot source="wheel" offsetX="635" offsetY="416" />
+      <hotspot source="enter" offsetX="423" offsetY="291" />
+      <hotspot source="rear bumper spoiler" offsetX="907" offsetY="373" />
+      <hotspot source="gr side skirt" offsetX="373" offsetY="364" />
+      <hotspot source="roof" offsetX="441" offsetY="135" />
+      <hotspot source="roof end spoiler" offsetX="792" offsetY="123" />
+      <hotspot source="scuff plate" offsetX="864" offsetY="322" />
+      <hotspot source="mirror" offsetX="315" offsetY="208" />
+      <hotspot source="gr emblem" offsetX="913" offsetY="281" />
+      <hotspot source="rear lamp" offsetX="739" offsetY="247" />
+      <hotspot source="smart entry" offsetX="425" offsetY="250" />
+      <highres src="images/highres/04_Agya_ext_05.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_06.jpg?t=1690464277">
+      <hotspot source="wheel" offsetX="460" offsetY="419" />
+      <hotspot source="enter" offsetX="375" offsetY="286" />
+      <hotspot source="rear bumper spoiler" offsetX="779" offsetY="389" />
+      <hotspot source="gr side skirt" offsetX="356" offsetY="355" />
+      <hotspot source="roof" offsetX="433" offsetY="129" />
+      <hotspot source="roof end spoiler" offsetX="676" offsetY="122" />
+      <hotspot source="scuff plate" offsetX="714" offsetY="332" />
+      <hotspot source="mirror" offsetX="332" offsetY="205" />
+      <hotspot source="gr emblem" offsetX="808" offsetY="289" />
+      <hotspot source="rear lamp" offsetX="531" offsetY="248" />
+      <hotspot source="smart entry" offsetX="379" offsetY="247" />
+      <highres src="images/highres/04_Agya_ext_06.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_07.jpg?t=1690464277">
+      <hotspot source="rear bumper spoiler" offsetX="624" offsetY="398" />
+      <hotspot source="roof end spoiler" offsetX="534" offsetY="120" />
+      <hotspot source="scuff plate" offsetX="535" offsetY="334" />
+      <hotspot source="gr emblem" offsetX="659" offsetY="291" />
+      <hotspot source="rear lamp" offsetX="364" offsetY="242" />
+      <highres src="images/highres/04_Agya_ext_07.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_08.jpg?t=1690464277">
+      <hotspot source="wheel" offsetX="611" offsetY="418" />
+      <hotspot source="enter" offsetX="696" offsetY="286" />
+      <hotspot source="rear bumper spoiler" offsetX="453" offsetY="400" />
+      <hotspot source="gr side skirt" offsetX="710" offsetY="360" />
+      <hotspot source="roof" offsetX="638" offsetY="128" />
+      <hotspot source="roof end spoiler" offsetX="403" offsetY="123" />
+      <hotspot source="scuff plate" offsetX="360" offsetY="332" />
+      <hotspot source="mirror" offsetX="740" offsetY="207" />
+      <hotspot source="gr emblem" offsetX="479" offsetY="294" />
+      <hotspot source="rear lamp" offsetX="535" offsetY="249" />
+      <hotspot source="smart entry" offsetX="694" offsetY="249" />
+      <highres src="images/highres/04_Agya_ext_08.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_09.jpg?t=1690464277">
+      <hotspot source="wheel" offsetX="434" offsetY="415" />
+      <hotspot source="enter" offsetX="646" offsetY="291" />
+      <hotspot source="rear bumper spoiler" offsetX="256" offsetY="385" />
+      <hotspot source="gr side skirt" offsetX="685" offsetY="364" />
+      <hotspot source="roof" offsetX="601" offsetY="126" />
+      <hotspot source="roof end spoiler" offsetX="278" offsetY="124" />
+      <hotspot source="scuff plate" offsetX="205" offsetY="321" />
+      <hotspot source="mirror" offsetX="751" offsetY="206" />
+      <hotspot source="gr emblem" offsetX="279" offsetY="292" />
+      <hotspot source="rear lamp" offsetX="322" offsetY="242" />
+      <hotspot source="smart entry" offsetX="645" offsetY="250" />
+      <highres src="images/highres/04_Agya_ext_09.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_010.jpg?t=1690464277">
+      <hotspot source="upper grille" offsetX="821" offsetY="372" />
+      <hotspot source="wheel" offsetX="222" offsetY="388" />
+      <hotspot source="enter" offsetX="505" offsetY="290" />
+      <hotspot source="gr side skirt" offsetX="582" offsetY="375" />
+      <hotspot source="roof" offsetX="547" offsetY="130" />
+      <hotspot source="roof end spoiler" offsetX="218" offsetY="134" />
+      <hotspot source="headlamp" offsetX="910" offsetY="281" />
+      <hotspot source="mirror" offsetX="669" offsetY="213" />
+      <hotspot source="rear lamp" offsetX="143" offsetY="232" />
+      <hotspot source="smart entry" offsetX="506" offsetY="252" />
+      <highres src="images/highres/04_Agya_ext_010.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_011.jpg?t=1690464277">
+      <hotspot source="upper grille" offsetX="818" offsetY="372" />
+      <hotspot source="wheel" offsetX="233" offsetY="358" />
+      <hotspot source="enter" offsetX="386" offsetY="291" />
+      <hotspot source="front bumper spoiler" offsetX="901" offsetY="363" />
+      <hotspot source="gr side skirt" offsetX="420" offsetY="369" />
+      <hotspot source="roof" offsetX="545" offsetY="125" />
+      <hotspot source="headlamp" offsetX="733" offsetY="301" />
+      <hotspot source="mirror" offsetX="487" offsetY="211" />
+      <hotspot source="smart entry" offsetX="388" offsetY="250" />
+      <highres src="images/highres/04_Agya_ext_011.jpg?t=1690464277" />
+    </image>
+    <image src="images/04_Agya_ext_012.jpg?t=1690464277">
+      <hotspot source="upper grille" offsetX="586" offsetY="384" />
+      <hotspot source="wheel" offsetX="327" offsetY="344" />
+      <hotspot source="enter" offsetX="364" offsetY="283" />
+      <hotspot source="front bumper spoiler" offsetX="745" offsetY="381" />
+      <hotspot source="gr side skirt" offsetX="362" offsetY="353" />
+      <hotspot source="roof" offsetX="545" offsetY="125" />
+      <hotspot source="headlamp" offsetX="489" offsetY="301" />
+      <hotspot source="mirror" offsetX="377" offsetY="206" />
+      <hotspot source="smart entry" offsetX="363" offsetY="244" />
+      <highres src="images/highres/04_Agya_ext_012.jpg?t=1690464277" />
+    </image>
+  </images>
+</config>

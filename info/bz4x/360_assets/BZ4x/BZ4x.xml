@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/BZ4X Front View.jpg?t=1669950537" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="back_view" renderMode="0" indicatorImage="button_rear view.png">
+      <spotinfo clickAction="3" />
+    </hotspot>
+    <hotspot id="front_view" renderMode="0" indicatorImage="button_front view.png">
+      <spotinfo clickAction="4" />
+    </hotspot>
+    <hotspot id="roof-spoiler" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/24_BZ4X_ext_ftrs-04.jpg?t=1669950537" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/24_BZ4X_ext_ftrs-03.jpg?t=1669950537" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="grill" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/24_BZ4X_ext_ftrs-01.png?t=1669950537" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/bz4x/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="panoramic-roof" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/24_BZ4X_ext_ftrs-02.jpg?t=1669950537" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/BZ4X Front View.jpg?t=1669950537">
+      <hotspot source="back_view" offsetX="539" offsetY="580" />
+      <hotspot source="roof-spoiler" offsetX="843" offsetY="154" />
+      <hotspot source="wheel" offsetX="585" offsetY="403" />
+      <hotspot source="grill" offsetX="282" offsetY="325" />
+      <hotspot source="enter" offsetX="761" offsetY="269" />
+      <hotspot source="panoramic-roof" offsetX="606" offsetY="130" />
+      <highres src="images/highres/BZ4X Front View.jpg?t=1669950537" />
+    </image>
+    <image src="images/BZ4X Side view.jpg?t=1669950537">
+      <hotspot source="front_view" offsetX="540" offsetY="580" />
+      <hotspot source="roof-spoiler" offsetX="815" offsetY="159" />
+      <hotspot source="wheel" offsetX="240" offsetY="390" />
+      <hotspot source="grill" offsetX="85" offsetY="340" />
+      <hotspot source="enter" offsetX="545" offsetY="278" />
+      <hotspot source="panoramic-roof" offsetX="597" offsetY="144" />
+      <highres src="images/highres/BZ4X Side view.jpg?t=1669950537" />
+    </image>
+  </images>
+</config>
