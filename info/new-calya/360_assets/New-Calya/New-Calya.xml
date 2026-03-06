@@ -29,7 +29,7 @@
       <spotinfo src="images/spots/17_Calya_ext_ftrs-03.jpg?t=1669919060" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
-      <spotinfo url="http://toyotavshowroom.retronim.com/info/new-calya/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/new-calya/int" urlTarget="_self" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="1920" highresHeight="1080">

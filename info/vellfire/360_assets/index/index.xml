@@ -26,7 +26,7 @@
       <spotinfo src="images/spots/10_Vellfire_ext_ftrs_04.jpg?t=1631710698" imgWidth="320" />
     </hotspot>
     <hotspot id="spot9" renderMode="0" indicatorImage="Out Small.png" effects="scaleUp">
-      <spotinfo url="http://toyotavshowroom.retronim.com/info/vellfire/int/" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/vellfire/int/" urlTarget="_self" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="1920" highresHeight="1080">

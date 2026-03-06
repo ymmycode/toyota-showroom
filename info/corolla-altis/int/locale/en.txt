@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_A67EC088_864D_15C6_41DF_22CD804630A7.source = http://toyotavshowroom.retronim.com/info/corolla-altis
-LinkBehaviour_A66BA832_864D_14CA_41E0_25FC105ABDDD.source = http://toyotavshowroom.retronim.com/info/corolla-altis
+LinkBehaviour_A67EC088_864D_15C6_41DF_22CD804630A7.source = https://toyotavshowroom.retronim.com/info/corolla-altis
+LinkBehaviour_A66BA832_864D_14CA_41E0_25FC105ABDDD.source = https://toyotavshowroom.retronim.com/info/corolla-altis
 
 ## Media
 

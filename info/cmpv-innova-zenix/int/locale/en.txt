@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_B906A4DA_9751_8989_41C1_A6100C9215B8.source = http://toyotavshowroom.retronim.com/info/cmpv-innova-zenix
-LinkBehaviour_B9A8290C_9752_7889_41D7_61543326740A.source = http://toyotavshowroom.retronim.com/info/cmpv-innova-zenix
+LinkBehaviour_B906A4DA_9751_8989_41C1_A6100C9215B8.source = https://toyotavshowroom.retronim.com/info/cmpv-innova-zenix
+LinkBehaviour_B9A8290C_9752_7889_41D7_61543326740A.source = https://toyotavshowroom.retronim.com/info/cmpv-innova-zenix
 
 ## Media
 

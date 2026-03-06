@@ -23,7 +23,7 @@
       <spotinfo src="images/spots/19_Veloz_ext_ftrs-02.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
-      <spotinfo url="http://toyotavshowroom.retronim.com/info/veloz/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/veloz/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="window" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
       <spotinfo src="images/spots/19_Veloz_ext_ftrs-06.jpg?t=1662183556" imgWidth="321" imgNoScale="true" />

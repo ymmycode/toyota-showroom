@@ -14,7 +14,7 @@
       <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_01.png?t=1690449769" imgWidth="320" imgNoScale="true" />
     </hotspot>
     <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
-      <spotinfo url="http://toyotavshowroom.retronim.com/info/yaris-cross/int" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/yaris-cross/int" urlTarget="_self" />
     </hotspot>
     <hotspot id="Lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true">
       <spotinfo src="images/spots/02_Yaris_Cross_Ext_ftrs_03.png?t=1690449769" imgWidth="320" imgNoScale="true" />

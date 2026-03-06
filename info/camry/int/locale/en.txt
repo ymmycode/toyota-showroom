@@ -3,8 +3,8 @@
 ## Action
 
 ### URL
-LinkBehaviour_CC7B1C3B_E50A_DFB5_41D5_7C2C6E645848.source = http://toyotavshowroom.retronim.com/info/camry
-LinkBehaviour_CC1636E8_E50A_E8D3_41E9_97DC9A964D05.source = http://toyotavshowroom.retronim.com/info/camry
+LinkBehaviour_CC7B1C3B_E50A_DFB5_41D5_7C2C6E645848.source = https://toyotavshowroom.retronim.com/info/camry
+LinkBehaviour_CC1636E8_E50A_E8D3_41E9_97DC9A964D05.source = https://toyotavshowroom.retronim.com/info/camry
 
 ## Media
 

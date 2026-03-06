@@ -23,7 +23,7 @@
       <spotinfo src="images/spots/11_Voxy_extr_ftrs_05.jpg?t=1631698477" imgWidth="320" />
     </hotspot>
     <hotspot id="spot6" renderMode="0" indicatorImage="Out Small.png" effects="scaleUp">
-      <spotinfo url="http://toyotavshowroom.retronim.com/info/voxy/int/" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/voxy/int/" urlTarget="_self" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="1382" highresHeight="778">

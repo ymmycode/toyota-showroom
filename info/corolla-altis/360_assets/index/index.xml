@@ -20,7 +20,7 @@
       <spotinfo src="images/spots/07_Altis_ext_ftrs_04.jpg?t=1631692049" imgWidth="320" />
     </hotspot>
     <hotspot id="spot5" renderMode="0" indicatorImage="Out Small.png" activateOnClick="true" effects="scaleUp">
-      <spotinfo url="http://toyotavshowroom.retronim.com/info/corolla-altis/int/" urlTarget="_self" />
+      <spotinfo url="https://toyotavshowroom.retronim.com/info/corolla-altis/int/" urlTarget="_self" />
     </hotspot>
   </hotspots>
   <images rows="1" highresWidth="1920" highresHeight="1080">
