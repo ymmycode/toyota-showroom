@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/GR YARIS depan_01.jpg?t=1669945301" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="back_view" renderMode="0" indicatorImage="button_rear view.png">
+      <spotinfo clickAction="3" />
+    </hotspot>
+    <hotspot id="front_view" renderMode="0" indicatorImage="button_front view.png">
+      <spotinfo clickAction="4" />
+    </hotspot>
+    <hotspot id="aerodinamic back" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/02_Yaris_ext_ftrs_04.png?t=1669945301" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="velg" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/02_Yaris_ext_ftrs-03.jpg?t=1669945301" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="grill" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/02_Yaris_ext_ftrs_02.png?t=1669945301" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/gr-yaris/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="aerodinamics" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/02_Yaris_ext_ftrs-01.jpg?t=1669945301" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/GR YARIS depan_01.jpg?t=1669945301">
+      <hotspot source="back_view" offsetX="539" offsetY="580" />
+      <hotspot source="velg" offsetX="330" offsetY="398" />
+      <hotspot source="grill" offsetX="781" offsetY="440" />
+      <hotspot source="enter" offsetX="205" offsetY="161" />
+      <hotspot source="aerodinamics" offsetX="234" offsetY="238" />
+      <highres src="images/highres/GR YARIS depan_01.jpg?t=1669945301" />
+    </image>
+    <image src="images/GR YARIS belakang_01.jpg?t=1669945301">
+      <hotspot source="front_view" offsetX="540" offsetY="580" />
+      <hotspot source="aerodinamic back" offsetX="761" offsetY="350" />
+      <hotspot source="enter" offsetX="269" offsetY="187" />
+      <hotspot source="aerodinamics" offsetX="240" offsetY="260" />
+      <highres src="images/highres/GR YARIS belakang_01.jpg?t=1669945301" />
+    </image>
+  </images>
+</config>

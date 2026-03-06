@@ -1,0 +1,49 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_DAA9ECE9_C3F3_895F_41DA_A1FB4D06F2F3.source = https://toyotavshowroom.com/info/land-cruiser
+LinkBehaviour_DB36F4D6_C3F3_9975_41E7_C5F7C32398D6.source = https://toyotavshowroom.com/info/land-cruiser
+
+## Media
+
+### Image
+imlevel_A0786FB8_9A53_EBC6_41DE_C17122618B5C.url = media/popup_B7498BF8_8760_0A21_41BB_214561B3441C_en_0_0.jpg
+imlevel_A0787FB8_9A53_EBC6_41B4_3A410CD10635.url = media/popup_B7498BF8_8760_0A21_41BB_214561B3441C_en_0_1.jpg
+imlevel_B434B2C3_8760_7A67_41C3_75881A1B17ED.url = media/popup_D57323F0_C3D3_FF4D_41D4_747B1C96F0C2_en_0_0.jpg
+imlevel_B43442C3_8760_7A67_41DD_CBDB416AE104.url = media/popup_D57323F0_C3D3_FF4D_41D4_747B1C96F0C2_en_0_1.jpg
+imlevel_B431A334_8760_7A21_41D3_B0E96EFD7B02.url = media/popup_D953DFFF_C3F1_8733_41E6_7BFA88701A54_en_0_0.jpg
+imlevel_B4379334_8760_7A21_41D7_F9807771F039.url = media/popup_D953DFFF_C3F1_8733_41E6_7BFA88701A54_en_0_1.jpg
+imlevel_B4314346_8760_7A61_41BF_ABFC98610FE8.url = media/popup_DAC02E87_C3D1_89D3_41CA_F14A2B694C21_en_0_0.jpg
+imlevel_B4315346_8760_7A61_41D5_28750A9AC077.url = media/popup_DAC02E87_C3D1_89D3_41CA_F14A2B694C21_en_0_1.jpg
+imlevel_B436C2D2_8760_7A61_41BB_543761F2E801.url = media/popup_DB08A7CE_C3D2_8752_41D5_96CCE6292700_en_0_0.png
+imlevel_B43532D2_8760_7A61_41E0_6E87540441CA.url = media/popup_DB08A7CE_C3D2_8752_41D5_96CCE6292700_en_0_1.png
+
+### Popup Image
+
+### Title
+photo_B21257F9_8760_3A23_41DE_06653B9E05D8.label = 15_LC300_sfty_ftrs_-01
+photo_B21257F9_8760_3A23_41DE_06653B9E05D8.label = 15_LC300_sfty_ftrs_-01
+photo_B5B17A9A_8760_0AE1_41D2_4DC47D61F6F5.label = 15_LC300_sfty_ftrs_-02
+photo_B5B17A9A_8760_0AE1_41D2_4DC47D61F6F5.label = 15_LC300_sfty_ftrs_-02
+photo_B5B2CBF2_8760_0A21_41BF_3A8F0FDA1504.label = 15_LC300_sfty_ftrs_-03
+photo_B5B2CBF2_8760_0A21_41BF_3A8F0FDA1504.label = 15_LC300_sfty_ftrs_-03
+photo_B5B28D4B_8760_0E67_41BE_A461A8D6B861.label = 15_LC300_sfty_ftrs_-04
+photo_B5B28D4B_8760_0E67_41BE_A461A8D6B861.label = 15_LC300_sfty_ftrs_-04
+photo_B5B2DEAD_8760_0A23_41B3_C9C0D3ECDE4B.label = 15_LC300_sfty_ftrs_-05
+photo_B5B2DEAD_8760_0A23_41B3_C9C0D3ECDE4B.label = 15_LC300_sfty_ftrs_-05
+album_A6579CE7_B8BC_D24E_41E3_A0E8C9CFFE67.label = Photo Album Land Cruiser
+panorama_D61586D4_C37F_5AA9_41E7_D0F1321D4CCD.label = landcuiser_int
+
+## Right Click Menu
+
+### Text
+TDVAuthor.label = Visquares
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Land Cruiser Interior 360 view

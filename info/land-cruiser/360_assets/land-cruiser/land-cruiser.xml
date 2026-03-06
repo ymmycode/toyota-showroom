@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/15_LC300_ext_01.jpg?t=1674814660" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="false" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="empty" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="false" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot1" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/15_LC300_ext_ftrs_01.jpg?t=1674814660" imgWidth="300" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/15_LC300_ext_ftrs_02.jpg?t=1674814660" imgWidth="300" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot3" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/15_LC300_ext_ftrs_03.jpg?t=1674814660" imgWidth="300" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot4" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/15_LC300_ext_ftrs_04.jpg?t=1674814660" imgWidth="300" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo url="https://toyotavshowroom.com/info/land-cruiser/int" urlTarget="_self" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/15_LC300_ext_01.jpg?t=1674814660">
+      <hotspot source="spot1" offsetX="531" offsetY="250" />
+      <hotspot source="spot2" offsetX="613" offsetY="402" />
+      <hotspot source="spot4" offsetX="700" offsetY="294" />
+      <highres src="images/highres/15_LC300_ext_01.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_03.jpg?t=1674814660">
+      <hotspot source="spot1" offsetX="283" offsetY="255" />
+      <hotspot source="spot2" offsetX="330" offsetY="401" />
+      <hotspot source="spot4" offsetX="430" offsetY="294" />
+      <hotspot source="enter" offsetX="690" offsetY="262" />
+      <highres src="images/highres/15_LC300_ext_03.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_05.jpg?t=1674814660">
+      <hotspot source="spot1" offsetX="129" offsetY="256" />
+      <hotspot source="spot2" offsetX="127" offsetY="390" />
+      <hotspot source="spot4" offsetX="195" offsetY="295" />
+      <hotspot source="enter" offsetX="625" offsetY="260" />
+      <highres src="images/highres/15_LC300_ext_05.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_07.jpg?t=1674814660">
+      <hotspot source="enter" offsetX="529" offsetY="262" />
+      <highres src="images/highres/15_LC300_ext_07.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_09.jpg?t=1674814660">
+      <hotspot source="spot3" offsetX="972" offsetY="372" />
+      <hotspot source="enter" offsetX="434" offsetY="262" />
+      <highres src="images/highres/15_LC300_ext_09.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_11.jpg?t=1674814660">
+      <hotspot source="spot3" offsetX="805" offsetY="381" />
+      <hotspot source="enter" offsetX="370" offsetY="260" />
+      <highres src="images/highres/15_LC300_ext_11.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_13.jpg?t=1674814660">
+      <hotspot source="spot3" offsetX="528" offsetY="385" />
+      <highres src="images/highres/15_LC300_ext_13.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_15.jpg?t=1674814660">
+      <hotspot source="spot3" offsetX="256" offsetY="381" />
+      <hotspot source="enter" offsetX="690" offsetY="262" />
+      <highres src="images/highres/15_LC300_ext_15.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_17.jpg?t=1674814660">
+      <hotspot source="spot3" offsetX="86" offsetY="371" />
+      <hotspot source="enter" offsetX="625" offsetY="262" />
+      <highres src="images/highres/15_LC300_ext_17.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_19.jpg?t=1674814660">
+      <hotspot source="enter" offsetX="530" offsetY="262" />
+      <highres src="images/highres/15_LC300_ext_19.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_21.jpg?t=1674814660">
+      <hotspot source="enter" offsetX="437" offsetY="263" />
+      <highres src="images/highres/15_LC300_ext_21.jpg?t=1674814660" />
+    </image>
+    <image src="images/15_LC300_ext_23.jpg?t=1674814660">
+      <hotspot source="spot1" offsetX="783" offsetY="254" />
+      <hotspot source="spot2" offsetX="866" offsetY="396" />
+      <hotspot source="spot4" offsetX="901" offsetY="294" />
+      <hotspot source="enter" offsetX="371" offsetY="260" />
+      <highres src="images/highres/15_LC300_ext_23.jpg?t=1674814660" />
+    </image>
+  </images>
+</config>

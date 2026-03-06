@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/HiluxGR_Depan.jpg?t=1669949785" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="back_view" renderMode="0" indicatorImage="button_rear view.png">
+      <spotinfo clickAction="3" />
+    </hotspot>
+    <hotspot id="front_view" renderMode="0" indicatorImage="button_front view.png">
+      <spotinfo clickAction="4" />
+    </hotspot>
+    <hotspot id="brake" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-03.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="side-body" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-02.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="lamp" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-01.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/hilux-gr/int" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="lamp2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-01.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="brake2" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-03.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="antenna" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-04.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-05.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="guard" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-06.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="grill" renderMode="0" indicatorImage="circ-cross-thin-orange.svg">
+      <spotinfo src="images/spots/21_HiluxGR_ext_ftrs-07.jpg?t=1669949785" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/HiluxGR_Depan.jpg?t=1669949785">
+      <hotspot source="back_view" offsetX="539" offsetY="580" />
+      <hotspot source="brake" offsetX="454" offsetY="396" />
+      <hotspot source="side-body" offsetX="313" offsetY="429" />
+      <hotspot source="lamp" offsetX="550" offsetY="234" />
+      <hotspot source="enter" offsetX="300" offsetY="246" />
+      <hotspot source="lamp2" offsetX="922" offsetY="229" />
+      <hotspot source="brake2" offsetX="174" offsetY="427" />
+      <hotspot source="grill" offsetX="805" offsetY="299" />
+      <highres src="images/highres/HiluxGR_Depan.jpg?t=1669949785" />
+    </image>
+    <image src="images/HiluxGR_Belakang.jpg?t=1669949785">
+      <hotspot source="front_view" offsetX="540" offsetY="580" />
+      <hotspot source="brake" offsetX="920" offsetY="376" />
+      <hotspot source="side-body" offsetX="776" offsetY="402" />
+      <hotspot source="lamp" offsetX="993" offsetY="255" />
+      <hotspot source="enter" offsetX="796" offsetY="244" />
+      <hotspot source="brake2" offsetX="558" offsetY="416" />
+      <hotspot source="antenna" offsetX="512" offsetY="101" />
+      <hotspot source="bumper" offsetX="324" offsetY="389" />
+      <hotspot source="guard" offsetX="457" offsetY="166" />
+      <highres src="images/highres/HiluxGR_Belakang.jpg?t=1669949785" />
+    </image>
+  </images>
+</config>

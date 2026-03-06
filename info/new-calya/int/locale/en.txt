@@ -1,0 +1,45 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_CD058399_E51E_E975_41CA_4F6A0599D45B.source = https://toyotavshowroom.com/info/new-calya
+
+## Media
+
+### Title
+photo_E596BDDD_F693_DBED_41EB_6018865A44BA.label = 17_Calya_sfty_ftrs-01
+photo_E596BDDD_F693_DBED_41EB_6018865A44BA.label = 17_Calya_sfty_ftrs-01
+photo_E707CF2E_F693_D8AF_41E8_794E56BA75C1.label = 17_Calya_sfty_ftrs-02
+photo_E707CF2E_F693_D8AF_41E8_794E56BA75C1.label = 17_Calya_sfty_ftrs-02
+photo_E7124FE3_F693_D7D5_41D1_A8EDC79B1B82.label = 17_Calya_sfty_ftrs-03
+photo_E7124FE3_F693_D7D5_41D1_A8EDC79B1B82.label = 17_Calya_sfty_ftrs-03
+photo_E7129089_F693_E855_41E3_E5707432154E.label = 17_Calya_sfty_ftrs-04
+photo_E7129089_F693_E855_41E3_E5707432154E.label = 17_Calya_sfty_ftrs-04
+photo_E7125134_F693_E8B3_41D6_6EC9B993AC25.label = 17_Calya_sfty_ftrs-05
+photo_E7125134_F693_E8B3_41D6_6EC9B993AC25.label = 17_Calya_sfty_ftrs-05
+photo_E71291DE_F693_EBEF_41E0_A7245FD35B9D.label = 17_Calya_sfty_ftrs-06
+photo_E71291DE_F693_EBEF_41E0_A7245FD35B9D.label = 17_Calya_sfty_ftrs-06
+photo_E7127288_F693_E853_41EA_2AC96E3A3232.label = 17_Calya_sfty_ftrs-07
+photo_E7127288_F693_E853_41EA_2AC96E3A3232.label = 17_Calya_sfty_ftrs-07
+photo_E7C999F2_F694_7BB7_41B0_58ACF5242382.label = 17_calya_intr_ftrs-01
+photo_E7C999F2_F694_7BB7_41B0_58ACF5242382.label = 17_calya_intr_ftrs-01
+photo_E40256F1_F694_69B5_41EC_CB09FD3A7588.label = 17_calya_intr_ftrs_Artboard 2
+photo_E40256F1_F694_69B5_41EC_CB09FD3A7588.label = 17_calya_intr_ftrs_Artboard 2
+photo_E7F7887A_F694_78B7_41E3_511B0CD5D095.label = 17_calya_intr_ftrs_Artboard 3
+photo_E7F7887A_F694_78B7_41E3_511B0CD5D095.label = 17_calya_intr_ftrs_Artboard 3
+photo_E7C9A938_F694_78B3_41D3_241C6A7F2693.label = 17_calya_intr_ftrs_Artboard 4
+photo_E7C9A938_F694_78B3_41D3_241C6A7F2693.label = 17_calya_intr_ftrs_Artboard 4
+album_CE49D7CA_E50B_68D7_41E2_8F58D13A3FC5.label = Photo Album 18_Sienta_sfty_ftrs_01
+
+## Skin
+
+### Button
+Button_CE8EFF62_E51D_59D7_41C6_0A5DD70B6C5A.label = Back
+
+## Tour
+
+### Description
+
+### Title
+tour.name = New Calya

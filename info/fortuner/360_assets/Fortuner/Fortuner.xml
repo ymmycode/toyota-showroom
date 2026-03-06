@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/12_Fortuner_ext_01.jpg?t=1673010100" />
+    <userInterface showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="basic" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" />
+  </settings>
+  <hotspots>
+    <hotspot id="sensor" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/12_fortuner_ext_ftrs_-04.jpg?t=1673010100" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="wheel" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/12_fortuner_ext_ftrs_-03.jpg?t=1673010100" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="grill" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/12_fortuner_ext_ftrs_01.png?t=1673010100" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="rear-bumper" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/12_fortuner_ext_ftrs_02.png?t=1673010100" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="emblem" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/12_fortuner_ext_ftrs_-05.jpg?t=1673010100" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="enter" renderMode="0" indicatorImage="out_small.png">
+      <spotinfo url="https://toyotavshowroom.com/info/fortuner/int/" urlTarget="_self" />
+    </hotspot>
+    <hotspot id="sticker" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/12_fortuner_ext_ftrs_-06.jpg?t=1673010100" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+    <hotspot id="spot9" renderMode="0" indicatorImage="circ-cross-thin-orange.svg" activateOnClick="true" effects="scaleUp,2000">
+      <spotinfo src="images/spots/12_fortuner_ext_ftrs_-09.jpg?t=1673010100" imgWidth="320" imgNoScale="true" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1080">
+    <image src="images/12_Fortuner_ext_01.jpg?t=1673010100">
+      <hotspot source="grill" offsetX="599" offsetY="342" />
+      <highres src="images/highres/12_Fortuner_ext_01.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_02.jpg?t=1673010100">
+      <hotspot source="wheel" offsetX="641" offsetY="430" />
+      <hotspot source="grill" offsetX="459" offsetY="338" />
+      <hotspot source="enter" offsetX="702" offsetY="265" />
+      <hotspot source="spot9" offsetX="715" offsetY="408" />
+      <highres src="images/highres/12_Fortuner_ext_02.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_03.jpg?t=1673010100">
+      <hotspot source="wheel" offsetX="549" offsetY="431" />
+      <hotspot source="grill" offsetX="325" offsetY="336" />
+      <hotspot source="enter" offsetX="685" offsetY="265" />
+      <hotspot source="sticker" offsetX="763" offsetY="354" />
+      <hotspot source="spot9" offsetX="687" offsetY="415" />
+      <highres src="images/highres/12_Fortuner_ext_03.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_05.jpg?t=1673010100">
+      <hotspot source="sensor" offsetX="990" offsetY="386" />
+      <hotspot source="wheel" offsetX="301" offsetY="423" />
+      <hotspot source="grill" offsetX="80" offsetY="327" />
+      <hotspot source="enter" offsetX="579" offsetY="265" />
+      <hotspot source="sticker" offsetX="743" offsetY="365" />
+      <hotspot source="spot9" offsetX="564" offsetY="423" />
+      <highres src="images/highres/12_Fortuner_ext_05.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_06.jpg?t=1673010100">
+      <hotspot source="sensor" offsetX="958" offsetY="404" />
+      <hotspot source="wheel" offsetX="219" offsetY="409" />
+      <hotspot source="rear-bumper" offsetX="964" offsetY="320" />
+      <hotspot source="enter" offsetX="445" offsetY="266" />
+      <hotspot source="sticker" offsetX="593" offsetY="367" />
+      <hotspot source="spot9" offsetX="441" offsetY="418" />
+      <highres src="images/highres/12_Fortuner_ext_06.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_07.jpg?t=1673010100">
+      <hotspot source="sensor" offsetX="718" offsetY="420" />
+      <hotspot source="wheel" offsetX="321" offsetY="396" />
+      <hotspot source="rear-bumper" offsetX="680" offsetY="328" />
+      <hotspot source="emblem" offsetX="777" offsetY="292" />
+      <hotspot source="enter" offsetX="366" offsetY="263" />
+      <hotspot source="spot9" offsetX="385" offsetY="414" />
+      <highres src="images/highres/12_Fortuner_ext_07.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_08.jpg?t=1673010100">
+      <hotspot source="sensor" offsetX="587" offsetY="422" />
+      <hotspot source="rear-bumper" offsetX="539" offsetY="330" />
+      <hotspot source="emblem" offsetX="649" offsetY="295" />
+      <highres src="images/highres/12_Fortuner_ext_08.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_09.jpg?t=1673010100">
+      <hotspot source="sensor" offsetX="300" offsetY="414" />
+      <hotspot source="wheel" offsetX="806" offsetY="399" />
+      <hotspot source="rear-bumper" offsetX="274" offsetY="326" />
+      <hotspot source="emblem" offsetX="385" offsetY="299" />
+      <hotspot source="enter" offsetX="690" offsetY="264" />
+      <hotspot source="sticker" offsetX="616" offsetY="363" />
+      <hotspot source="spot9" offsetX="674" offsetY="415" />
+      <highres src="images/highres/12_Fortuner_ext_09.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_10.jpg?t=1673010100">
+      <hotspot source="sensor" offsetX="202" offsetY="409" />
+      <hotspot source="wheel" offsetX="840" offsetY="402" />
+      <hotspot source="rear-bumper" offsetX="176" offsetY="322" />
+      <hotspot source="emblem" offsetX="259" offsetY="296" />
+      <hotspot source="enter" offsetX="666" offsetY="264" />
+      <hotspot source="sticker" offsetX="551" offsetY="372" />
+      <hotspot source="spot9" offsetX="638" offsetY="417" />
+      <highres src="images/highres/12_Fortuner_ext_10.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_12.jpg?t=1673010100">
+      <hotspot source="sensor" offsetX="86" offsetY="393" />
+      <hotspot source="wheel" offsetX="826" offsetY="419" />
+      <hotspot source="grill" offsetX="1002" offsetY="322" />
+      <hotspot source="enter" offsetX="544" offsetY="267" />
+      <hotspot source="sticker" offsetX="369" offsetY="365" />
+      <hotspot source="spot9" offsetX="525" offsetY="423" />
+      <highres src="images/highres/12_Fortuner_ext_12.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_15.jpg?t=1673010100">
+      <hotspot source="wheel" offsetX="526" offsetY="429" />
+      <hotspot source="grill" offsetX="845" offsetY="337" />
+      <hotspot source="enter" offsetX="387" offsetY="267" />
+      <hotspot source="sticker" offsetX="310" offsetY="347" />
+      <hotspot source="spot9" offsetX="354" offsetY="410" />
+      <highres src="images/highres/12_Fortuner_ext_15.jpg?t=1673010100" />
+    </image>
+    <image src="images/12_Fortuner_ext_16.jpg?t=1673010100">
+      <hotspot source="wheel" offsetX="432" offsetY="425" />
+      <hotspot source="grill" offsetX="735" offsetY="339" />
+      <hotspot source="enter" offsetX="368" offsetY="262" />
+      <hotspot source="spot9" offsetX="363" offsetY="410" />
+      <highres src="images/highres/12_Fortuner_ext_16.jpg?t=1673010100" />
+    </image>
+  </images>
+</config>

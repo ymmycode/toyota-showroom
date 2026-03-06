@@ -1,0 +1,41 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_CD058399_E51E_E975_41CA_4F6A0599D45B.source = https://toyotavshowroom.com/info/gr-yaris
+
+## Media
+
+### Title
+photo_C8DFC3E1_D0F1_2E1C_41E9_4C2319DF99EA.label = 02_Yaris_sfty_ftrs-01
+photo_C8DFC3E1_D0F1_2E1C_41E9_4C2319DF99EA.label = 02_Yaris_sfty_ftrs-01
+photo_C7BEA4ED_D0F1_2BE4_41E3_0D043C2290AD.label = 02_Yaris_sfty_ftrs-02
+photo_C7BEA4ED_D0F1_2BE4_41E3_0D043C2290AD.label = 02_Yaris_sfty_ftrs-02
+photo_C7B39590_D0F1_2A3C_41D4_AC2E7BD59F72.label = 02_Yaris_sfty_ftrs-03
+photo_C7B39590_D0F1_2A3C_41D4_AC2E7BD59F72.label = 02_Yaris_sfty_ftrs-03
+photo_C7B3A637_D0F1_3664_41D0_0C3E2801C851.label = 02_Yaris_sfty_ftrs-04
+photo_C7B3A637_D0F1_3664_41D0_0C3E2801C851.label = 02_Yaris_sfty_ftrs-04
+photo_C78BCD19_D0F1_1A2C_41DC_3B94A73EFADC.label = 02_yaris_intr_ftrs-01
+photo_C78BCD19_D0F1_1A2C_41DC_3B94A73EFADC.label = 02_yaris_intr_ftrs-01
+photo_C7DF1882_D0F1_1A1C_41D4_F6560FECB082.label = 02_yaris_intr_ftrs_Artboard 2
+photo_C7DF1882_D0F1_1A1C_41D4_F6560FECB082.label = 02_yaris_intr_ftrs_Artboard 2
+photo_C7894AE8_D0F1_1FEC_41DF_6AC9325FF562.label = 02_yaris_intr_ftrs_Artboard 3
+photo_C7894AE8_D0F1_1FEC_41DF_6AC9325FF562.label = 02_yaris_intr_ftrs_Artboard 3
+photo_C78BBBAC_D0F1_1E64_41C3_6A3FEC674CB2.label = 02_yaris_intr_ftrs_Artboard 4
+photo_C78BBBAC_D0F1_1E64_41C3_6A3FEC674CB2.label = 02_yaris_intr_ftrs_Artboard 4
+photo_C78BAC5F_D0F1_1A24_41E7_F72BE220B83E.label = 02_yaris_intr_ftrs_Artboard 5
+photo_C78BAC5F_D0F1_1A24_41E7_F72BE220B83E.label = 02_yaris_intr_ftrs_Artboard 5
+album_CE49D7CA_E50B_68D7_41E2_8F58D13A3FC5.label = Photo Album 18_Sienta_sfty_ftrs_01
+
+## Skin
+
+### Button
+Button_CE8EFF62_E51D_59D7_41C6_0A5DD70B6C5A.label = Back
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Sienta
